@@ -1,0 +1,600 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+//notification menue
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWJ0bbck.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFUZ0bbck.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWZ0bbck.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVp0bbck.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWp0bbck.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50bbck.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+$primary-color: #f87d53;
+$secondary-color: #ff5252;
+$grey: #e3e3e3;
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background: $primary-color;
+
+    .inner-navigation {
+        padding: 0;
+        margin: 0;
+
+        li {
+            list-style-type: none;
+
+            .menu-link {
+                color: $secondary-color;
+                line-height: 3.7em;
+                //margin: 6px 4px;
+                padding: 20px 18px;
+                text-decoration: none;
+                transition: background .5s, color .5s;
+
+                &.menu-anchor {
+                    padding: 20px;
+                    margin: 0;
+                    background: $secondary-color;
+                    color: #FFF;
+                }
+
+                &.has-notifications {
+                    background: $secondary-color;
+                    color: #FFF;
+                }
+
+                &.circle {
+                    line-height: 3.8em;
+                    padding: 14px 18px;
+                    border-radius: 50%;
+
+                    &:hover {
+                        background: $secondary-color;
+                        color: #FFF;
+                    }
+                }
+
+                &.square {
+                    &:hover {
+                        background: $secondary-color;
+                        color: #FFF;
+                        transition: background .5s, color .5s;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.dropdown-container {
+    overflow-y: hidden;
+
+    &.expanded {
+        .dropdown {
+            -webkit-animation: fadein .5s;
+            -moz-animation: fadein .5s;
+            -ms-animation: fadein .5s;
+            -o-animation: fadein .5s;
+            animation: fadein .5s;
+            display: block;
+        }
+    }
+
+    .dropdown {
+        -webkit-animation: fadeout .5s;
+        -moz-animation: fadeout .5s;
+        -ms-animation: fadeout .5s;
+        -o-animation: fadeout .5s;
+        animation: fadeout .5s;
+        display: none;
+        position: absolute;
+        width: 300px;
+        height: auto;
+        max-height: 600px;
+        overflow-y: hidden;
+        padding: 0;
+        margin: 0;
+        background: #fff;
+        margin-top: 3px;
+        margin-right: -62px;
+        border-top: 4px solid $secondary-color;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        -webkit-box-shadow: 2px 2px 15px -5px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 2px 2px 15px -5px rgba(0, 0, 0, 0.75);
+        box-shadow: 2px 2px 15px -5px rgba(0, 0, 0, 0.75);
+        //Doesn't work because of hidden overflow-y
+        /*
+    &:before{
+      position: absolute;
+      content: ' ';
+      width: 0; 
+      height: 0; 
+      top: -13px;
+      right: 7px;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 10px solid $secondary-color; 
+    }
+    */
+
+        .notification-group {
+            border-bottom: 1px solid $grey;
+            overflow: hidden;
+            min-height: 65px;
+
+            &:last-child {
+                border-bottom: 0;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+            }
+
+            .notification-tab {
+                padding: 0px 25px;
+                min-height: 65px;
+
+                &:hover {
+                    cursor: pointer;
+                    background: $primary-color;
+
+                    .fa,
+                    h4,
+                    .label {
+                        color: #FFF;
+                        display: inline-block;
+                    }
+
+                    .label {
+                        background: $secondary-color;
+                        border-color: $secondary-color;
+                    }
+                }
+            }
+
+            .notification-tab-btn {
+                padding: 0px 25px;
+                min-height: 65px;
+                text-align: center;
+                font-size: 13px;
+                margin-top: -11px;
+
+                &:hover {
+                    cursor: pointer;
+                    background: $primary-color;
+
+                    .fa,
+                    h4,
+                    .label {
+                        color: #FFF;
+                        display: inline-block;
+                    }
+
+                    .label {
+                        background: $secondary-color;
+                        border-color: $secondary-color;
+                    }
+                }
+            }
+
+            .notification-list {
+                padding: 0;
+                overflow-y: auto;
+                height: 0px;
+                max-height: 250px;
+                transition: height .5s;
+
+
+                .notification-list-item {
+                    padding: 5px 10px;
+                    border-bottom: 1px solid $grey;
+
+                    .item-footer {
+                        a {
+                            color: $primary-color;
+                            text-decoration: none;
+                        }
+
+                        .from p {
+                            display: inline-block;
+                        }
+
+                        .date {
+                            float: right;
+
+                            font-size: 10px;
+                            margin-top: 5px;
+                        }
+                    }
+
+                    &:nth-of-type(odd) {}
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+
+                    &:last-child {
+                        border-bottom: 0;
+                        border-bottom-left-radius: 15px;
+                        border-bottom-right-radius: 15px;
+
+                    }
+                }
+
+            }
+
+            &.expanded {
+                .notification-tab {
+                    background: $primary-color;
+
+                    .fa,
+                    h4,
+                    .label {
+                        color: #FFF;
+                        display: inline-block;
+                    }
+
+                    .label {
+                        background: $secondary-color;
+                        border-color: $secondary-color;
+                    }
+                }
+
+                .notification-tab-btn {
+                    background: $primary-color;
+
+                    .fa,
+                    h4,
+                    .label {
+                        color: #FFF;
+                        display: inline-block;
+                    }
+
+                    .label {
+                        background: $secondary-color;
+                        border-color: $secondary-color;
+                    }
+                }
+
+                .notification-list {
+                    height: 250px;
+                    max-height: 250px;
+                    transition: height .5s;
+                }
+            }
+
+            .fa,
+            h4,
+            .label {
+                color: #333;
+                display: inline-block;
+            }
+
+            .fa {
+                margin-right: 5px;
+                margin-top: 25px;
+            }
+
+            .label {
+                float: right;
+                margin-top: 20px;
+                color: $primary-color;
+                border: 1px solid $primary-color;
+                padding: 0px 7px;
+                border-radius: 15px;
+            }
+        }
+
+        .notification-group-others {
+            .notification-list {
+                max-height: 250px;
+                transition: height .5s;
+                overflow-y: auto;
+
+                .no-notif {
+                    padding: 10px;
+                    text-align: center;
+                    align-items: center;
+                }
+            }
+
+            .notification-list-item {
+                padding: 5px 10px;
+                border-bottom: 1px solid $grey;
+
+                .notif-accept-btn {
+                    padding: 2px 20px !important;
+                }
+
+                .notif-reject-btn {
+                    padding: 2px 20px !important;
+                }
+
+                .item-footer {
+                    a {
+                        color: $primary-color;
+                        text-decoration: none;
+                    }
+
+                    .from p {
+                        display: inline-block;
+                    }
+
+                    .date {
+                        float: right;
+
+                        font-size: 10px;
+                        margin-top: 5px;
+                    }
+                }
+
+                &:nth-of-type(odd) {}
+
+                &:hover {
+                    cursor: pointer;
+                }
+
+                &:last-child {
+                    border-bottom: 0;
+                    border-bottom-left-radius: 15px;
+                    border-bottom-right-radius: 15px;
+                }
+            }
+        }
+    }
+}
+
+//Utility classes
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+//Media Queries
+@media only screen and (max-width : 321px) {
+    .dropdown-container {
+        .dropdown {
+
+            .notification-group {
+                .notification-tab {
+                    h4 {
+                        display: none;
+                    }
+
+                    &:hover {
+                        h4 {
+                            display: none;
+                        }
+                    }
+                }
+
+                .notification-tab-btn {
+                    h4 {
+                        display: none;
+                    }
+
+                    &:hover {
+                        h4 {
+                            display: none;
+                        }
+                    }
+                }
+
+                &.expanded {
+                    .notification-tab {
+                        h4 {
+                            display: none;
+                        }
+                    }
+
+                    .notification-tab-btn {
+                        h4 {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width : 514px) {
+    .dropdown-container {
+        .dropdown {
+            width: 100%;
+            margin: 0px;
+            left: 0;
+            font-size: 13px;
+            position: inherit;
+
+            .notification-tab-btn {
+                max-width: 50%;
+            }
+        }
+    }
+}
+
+//Fade In Animation
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+//Fade Out Animation
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@-ms-keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@-o-keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
