@@ -1,0 +1,522 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: helvetica;
+    src: url(HELR45W.ttf);
+}
+
+div#mySidenav a {
+    font-family: helvetica;
+    transition: 0.5s;
+}
+.if-signup-body {
+    background-color: #f6f6f6;
+}
+
+.step.active {
+    opacity: 1;
+    background: #f87d53;
+    color: #fff;
+}
+#regForm {
+    margin: 0px auto;
+    font-family: Raleway;
+    padding: 0px;
+    width: 70%;
+    min-width: 300px;
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+    background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+    display: none;
+}
+
+button {
+    color: #000;
+    background: none;
+    font-weight: 500;
+    border: none;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#prevBtn {
+    background-color: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 29px;
+    width: 29px;
+    margin: 0 2px;
+    background-color: none;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 1;
+    color: #f87d53;
+    border: 2px solid #f87d53;
+    margin: 0px 40px;
+    margin-top: 40px;
+}
+
+.step.active {
+    opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+    background-color: #4caf50;
+}
+a.butfacebook {
+    text-align: center;
+    color: #fff;
+    background: #3b5a98;
+    padding: 14px 59px;
+    margin: 0px auto;
+    border-radius: 31px;
+    text-decoration: none;
+    font-size: 24px;
+}
+.center {
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.center p {
+    font-size: 12px;
+    margin-top: 19px;
+}
+.divder {
+    border-top: 1px solid #ddd;
+    width: 34%;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+p.f1p {
+    font-size: 17px;
+    margin-top: 50px;
+}
+.secondf input {
+    width: 42%;
+    float: left;
+    margin: 0px 20px;
+}
+
+.secondf {
+    width: 69%;
+    margin: 0px auto;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+select {
+    font-family: Raleway;
+    font-size: 16px;
+    margin-top: 0.4rem;
+    margin-bottom: 0.6rem;
+}
+.select {
+    width: 100%;
+    height: 45px;
+    float: left;
+    font-size: 16px;
+    border: 1px solid #e6e1e1;
+}
+.input-height {
+    height: 45px;
+}
+p.pm {
+    margin-left: 19px;
+    margin-bottom: 0px;
+    margin-top: 67px;
+}
+.firstnameLastname {
+    margin-left: 1.3rem;
+    float: left;
+    width: 100%;
+    margin-top: 46px;
+}
+p.pms {
+    float: left;
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 46px;
+}
+
+
+.fsc {
+    width: 44%;
+    float: left;
+    margin: 0px 15px;
+}
+
+.fsc input {
+    width: 95%;
+    margin: 0px 5px;
+}
+
+.colum {
+    width: 43%;
+    float: left;
+    margin: 20px;
+}
+
+.mainthird {
+    width: 70%;
+    margin: 0px auto;
+}
+.collum {
+    width: 45%;
+    float: left;
+    background: #fff;
+    text-align: center;
+    padding: 10px 30px;
+    margin: 15px;
+    font-weight: bold;
+    line-height: 28px;
+    .padding-bottom: 31px;
+}
+.collum a {
+    background: #f88331;
+    color: #000;
+    padding: 10px 29px;
+    text-decoration: none;
+    border-radius: 11px;
+}
+.mainbox {
+    width: 80%;
+    margin: 0px auto;
+}
+.mainbox {
+    text-align: center;
+}
+
+.mainbox a {
+    color: #000;
+    text-decoration: none;
+}
+.collum {
+    padding-bottom: 30px;
+    height: 361px;
+}
+.step.finish {
+    background-color: #ffffff;
+    color: #007236;
+}
+.butn {
+    overflow: auto;
+    max-width: 532px;
+    text-align: center;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.mailss input {
+    width: 40%;
+    margin: 0px auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .step {
+        margin: 0px 11px;
+    }
+    .mailss {
+        width: 96%;
+    }
+    .mailss input {
+        width: 100%;
+        margin: 0px auto;
+    }
+    a.butfacebook {
+        text-align: center;
+        color: #fff;
+        background: #3b5a98;
+        padding: 14px 49px;
+        margin: 0px auto;
+        border-radius: 31px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    .fsc {
+        width: 100%;
+        float: left;
+        margin: 0px 0px;
+    }
+    .fsc input {
+        width: 100%;
+        margin: 0px 0px;
+    }
+    .secondf input {
+        width: 100%;
+        float: left;
+        margin: 0px 0px;
+    }
+    .secondf {
+        width: 97%;
+        margin: 0px auto;
+    }
+    .mainthird {
+        width: 95%;
+        margin: 0px auto;
+    }
+    .colum {
+        width: 100%;
+        float: left;
+        margin: 0px;
+    }
+    .mainbox a {
+        color: #000;
+        text-decoration: none;
+        width: 100%;
+
+    }
+    .mainbox {
+        width: 91%;
+        margin: 0px auto;
+    }
+    .collum {
+        width: 100%;
+        float: left;
+        background: #fff;
+        text-align: center;
+        padding: 10px 30px;
+        margin: 10px 0px;
+        font-weight: bold;
+        line-height: 28px;
+        padding-bottom: 31px;
+        margin-top: 38px;
+    }
+    .paid-button{
+        margin-top: 0px !important;
+    }
+    .step-bubble {
+        margin-top: 10px;
+    }
+    .tearms-of-services-link{
+        padding-top: 843px !important;
+    }
+}
+
+.tearms-of-services-link{
+    padding-top: 431px;
+}
+
+.step-bubble{
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+/*navigation css*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    font-family: helvetica;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+span img {
+    /*position: fixed;*/
+    width: 32px;
+}
+
+.title-of-page {
+    font-size: 40px;
+    color: rgb(22, 22, 22);
+    line-height: 1.2;
+    text-align: center;
+}
+.btn-sub-title {
+    font-size: 13px !important;
+    color: rgb(22, 22, 22);
+    line-height: 1.2;
+    margin-top: 25px !important;
+}
+input {
+    border-width: 1px;
+    border-color: rgb(215, 215, 215);
+    border-style: solid;
+    border-radius: 3px;
+    color: #495057;
+    background-color: rgb(255, 255, 255);
+}
+a.underline-txt {
+    text-decoration: underline;
+}
+
+/* .logo {
+    width: 80px;
+    height: 80px;
+} */
+.logo-button {
+    font-size: 30px;
+    cursor: pointer;
+    top: 25px;
+}
+.padding-body {
+    margin-right: 100px;
+    transition: 0.5s;
+}
+.logo-position {
+    position: absolute;
+    transition: 0.5s;
+}
+.new-position {
+    font-size: 30px;
+    cursor: pointer;
+    right: 170px;
+    top: 25px;
+    position: absolute;
+    transition: 0.5s;
+}
+.nextbtn-position {
+    float: right;
+}
+.select-second {
+    width: 100%;
+    height: 45px;
+    float: left;
+    border: 1px solid #e6e1e1;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+@media only screen and (max-width: 768px) {
+    
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+    .logo-button {
+        font-size: 20px;
+        cursor: pointer;
+        right: 20px;
+        top: 25px;
+    }
+    .padding-body {
+        margin-right: 0px;
+        transition: 0.5s;
+    }
+    .secondf input {
+        width: 100%;
+        float: left;
+        margin: 8px 0px;
+    }
+    p.pms {
+        float: left;
+        width: 100%;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+    .firstnameLastname {
+        float: left;
+        width: 100%;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .select-second {
+        width: 100%;
+        height: 45px;
+        text-align: center;
+        border: 1px solid #e6e1e1;
+    }
+    .tab {
+        width: 100%;
+    }
+    .secondf {
+        width: 100%;
+    }
+    .mainthird {
+        width: 90%;
+    }
+}
+.paid-button{
+    margin-top: 55px;
+}
+
+.signup-next-btn{
+    font-weight: bold;
+}
+button.btn-light {
+    background-color: #dddddd;
+    height: 46px;
+}
+
+button.btn.dropdown-toggle.bs-placeholder.btn-light {
+    border-width: 1px;
+    border-color: rgb(215, 215, 215);
+    border-style: solid;
+    border-radius: 3px;
+    color: #495057;
+    background-color: rgb(255, 255, 255);
+}
+
+button.btn.dropdown-toggle.btn-light {
+    background-color: #fff;
+    line-height: 2.5;
+    border: 1px solid rgb(215, 215, 215);
+}
+
+button.btn.dropdown-toggle.btn-light:active {
+    background-color: #fff;
+}

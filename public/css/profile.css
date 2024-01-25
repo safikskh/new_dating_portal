@@ -1,0 +1,5751 @@
+.fullHeight {
+    height: 100%;
+}
+
+aside.full-sidebar-area.date-background {
+    height: 100vh;
+}
+
+.overflow-fix,
+section,
+.logo-area,
+.full-sidebar-area,
+.full-sidebar-area ul,
+.profile-list-few-area,
+.link-hightlight-bar,
+.latest-single-messages-profile,
+.search-bar-area,
+.search-bar-area .search-header,
+.search-bar-area .search-form-area,
+.search-bar-area .search-form-area .search-input-field,
+.create-blog-area,
+.blog-room-area,
+.media-blogpost-seaction-area,
+.main-media-area,
+.latest-profile-list-area,
+.search-filter-area,
+.popular-group-area,
+.latest-news-bar-area,
+form.profilt-sttting-ful-contetn,
+.chating-box-area .chat-box-area-pro,
+.chating-box-area .chat-box-area-pro .single-chat-area,
+.chating-box-area .chat-box-area-pro .single-chat-area .time,
+.chating-box-area .chat-butoon,
+.online-box-area.height-100 .online-box-area-pro .single-online-area,
+.online-box-area.profile-setting-area .online-box-area-pro .single-online-area,
+form.online-box-area.profilt-sttting-ful-contetn .online-box-area-pro .single-online-area,
+.simple-popup-area,
+.simple-popup-area .simple-pop-content-area,
+.simple-popup-area .simple-pop-content-area .single-input-tile {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+#app {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.itemNone {
+    display: none;
+}
+
+.itemCenter,
+.icon-popup-area {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.itemCenterBottom {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.itemCenterStart,
+.learn-blog-area,
+.blog-room-area .blog-room-slider,
+.main-media-area.Vaeggen-area .media-area .single-media-area,
+.main-media-area .media-area .single-media-area,
+.popular-group-area .media-area,
+.profile-setting-area .profile-setting-single a {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.itemCenterbetween,
+.profile-header-area,
+.profile-short-dec .right-area .link-and-button,
+.profile-high-light-area,
+.profile-high-light-area .right-area .link-and-button {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.margin-bottom-15px,
+.profile-header-area,
+.profile-header-detail-area,
+.profile-high-light-area,
+.profile-decription-area,
+.profile-list-few-area,
+.link-hightlight-bar,
+.search-bar-area,
+.create-blog-area,
+.blog-room-area,
+.main-media-area,
+.latest-profile-list-area,
+.search-filter-area,
+.popular-group-area,
+.latest-news-bar-area,
+.mobile-area .learn-blog-area {
+    margin-bottom: 15px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+button {
+    border: 0px;
+    cursor: pointer;
+}
+
+.comment-btn{
+    background-color: transparent;
+}
+.post-text{
+    display: flex;
+}
+.btn-flat {
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: #c5c5c5;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 24px;
+    font-weight: 400;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.btn-flat:hover {
+    background-color: #f87d53;
+    color: #ffffff;
+}
+
+.btn-flat.active {
+    background-color: #f87d53;
+    color: #ffffff;
+}
+
+.btn-radiaus {
+    padding: 17px 20px;
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    background-color: #0072b3;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif, Arial;
+    /* font-size: 20px; */
+    font-weight: 400;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.btn-radiaus:hover,
+.btn-radiaus .active {
+    background-color: #f87d53;
+    color: #ffffff;
+}
+
+.btn-radiaus-sml {
+    padding: 8px 35px;
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    background-color: #f87d53;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 20px;
+    font-weight: 400;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.btn-radiaus-sml:hover,
+.btn-radiaus-sml .active {
+    background-color: #0072b3;
+    color: #ffffff;
+}
+
+.status-promotion-btn {
+    padding: 17px 45px;
+    margin-right: 0 !important;
+}
+
+.show-promotion-image{
+    height: auto;
+    width: 300px;
+}
+.details-protion-modal{
+    text-align: center;
+}
+
+/* .height-100,
+.profile-setting-area,
+form.profilt-sttting-ful-contetn {
+    height: 100%;
+} */
+
+.chat-list-area{
+    height: calc(100vh - 4.45rem);
+    overflow-y: auto;
+}
+
+.online-box-area{
+    height: calc(100vh - 4.45rem);
+}
+
+.btn-radiaus.ttt {
+    padding: 15px 20px;
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    background-color: #F0312E;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+/*============================================
+    1. Base Css
+ @mixin ===========================================*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif, Arial;
+}
+.title-area a {
+    color: #000;
+}
+.item a .profile-desc {
+    color: #000;
+}
+
+.content p {
+    font-size: 14px;
+
+}
+
+.promotion-username{
+    font-size: 18px;
+}
+
+.chat-box-content .img-area {
+    padding: 10px;
+    display: inherit;
+}
+
+.chat-box-text {
+    padding: 10px 0;
+}
+
+.my-chat-button{
+    background-color: #0072b3;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.block-fav-btn{
+    position: absolute;
+    top: 4.5%;
+    right: 3%;
+}
+
+.block-fav-btn .btn-fav {
+    width: 85px;
+    padding: 7px;
+ }
+
+.block-fav-btn .btn_fav_active {
+    width: 85px;
+    padding: 7px;
+    background-color: #F0312E;
+    color: #ffffff;
+ }
+.block-fav-btn .btn-block {
+    width: 85px;
+    padding: 7px;
+ }
+
+ .read-user-text{
+    color: rgba(255, 255, 255, 0.7) !important;
+ }
+
+ .confiramationModal .btn-cancell {
+    padding: 8px 20px;
+ }
+ .confiramationModal .btn-delete {
+    padding: 8px 20px;
+    background-color: red;
+ }
+
+.chat-delete {
+    display: inline-block;
+    margin-top: 23px;
+}
+
+.chat-delete button .zmdi-more {
+    font-size: 20px;
+}
+
+.chat-delete button {
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 767.98px) and (min-width: 300px) {
+    .block-fav-btn {
+        top: 2%;
+    }
+    .block-fav-btn .btn-fav {
+        width: 73px;
+        padding: 8px;
+        font-size: 12px;
+    }
+    .block-fav-btn .btn-block {
+        width: 90px;
+        padding: 8px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .block-fav-btn {
+        top: 3%;
+    }
+}
+
+.block-fav-btn .fav-btn {
+ margin-left: 20px;
+}
+
+html {
+    height: 100%;
+}
+
+.body {
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    height: 100%;
+
+    overflow-x: hidden;
+}
+
+/* date */
+.date-body-background {
+    background: #c6d3e9;
+}
+
+/* sugar */
+.sugar-body-background {
+    background: #c2c7cb;
+}
+
+/* fræk */
+.fræk-body-background {
+    background: rgba(143, 18, 63, 0.6);
+}
+
+/* Affære */
+.Affære-body-background {
+    background: #A9A9A9;
+}
+
+/* senior */
+.senior-body-background {
+    background: #c3ab9f;
+}
+
+/* regnbue */
+.regnbue-body-background {
+    background: #dfcae4;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+input:focus,
+button:focus,
+textarea {
+    outline: 0px;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select:focus {
+    outline: none;
+}
+
+a:focus,
+a:hover,
+a:focus i,
+a:hover i {
+    text-decoration: none;
+    outline: 0 solid;
+}
+
+ul li {
+    list-style: outside none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.page-content-area {
+    height: 100%;
+}
+
+.full-sidebar-area::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.full-sidebar-area::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.full-sidebar-area::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+.switch-bar {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 34px;
+}
+
+.switch-bar input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.switch-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 5px;
+    bottom: 3.9px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.swiper-button-next {
+    background-image: none !important;
+}
+
+.swiper-button-prev {
+    background-image: none !important;
+}
+
+/*.profile-list.fav-pop-slider.swiper-wrapper {*/
+/*    max-width: 410px;*/
+/*    width: 100%;*/
+/*    padding: 0px 30px;*/
+/*}*/
+
+input:checked+.switch-slider {
+    background-color: #f87d53;
+}
+
+input:focus+.switch-slider {
+    -webkit-box-shadow: 0 0 1px #f87d53;
+    box-shadow: 0 0 1px #f87d53;
+}
+
+input:checked+.switch-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* The check-container */
+.check-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.check-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Hide the browser's default checkbox */
+/* Create a custom checkbox */
+.check-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.check-container:hover input~.check-checkmark {
+    background-color: #ccc;
+}
+
+.check-container input:checked~.check-checkmark {
+    background-color: #3c2b2b;
+}
+
+/* When the checkbox is checked, add a blue background */
+/* Create the check-checkmark/indicator (hidden when not checked) */
+.check-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the check-checkmark when checked */
+.check-container input:checked~.check-checkmark:after {
+    display: block;
+}
+
+.check-container .check-checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* Style the check-checkmark/indicator */
+/* Rounded switch-sliders */
+.switch-slider.switch-round {
+    border-radius: 34px;
+}
+
+.switch-slider.switch-round:before {
+    border-radius: 50%;
+}
+
+/*============================================
+    2. Header area & Pre loader
+ @mixin ===========================================*/
+
+
+.vertical-menu-sub {
+    display: none;
+}
+
+.main-section-area {
+    float: left;
+    width: 100%;
+}
+
+.main-section-area .container-fluid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.logo-area {
+    margin-bottom: 20px;
+}
+
+.logo-area a {
+    max-width: 80px;
+    float: right;
+}
+
+.logo-area h4 {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    margin-top: 26px;
+    margin-left: 10%;
+    color: #ffffff;
+    float: left;
+}
+
+.right-sidebar-area {
+    width: 100%;
+    max-width: calc(230px - 15px);
+    display: none;
+}
+
+/* Date */
+.date-background {
+    background-color: #1b4da6;
+}
+
+.date-background ul li:hover ul li a {
+    background-color: #1b4da6;
+}
+
+.date-chat-background {
+    background-color: #1b4da6;
+}
+
+.date-setting-background {
+    background-color: #1b4da6;
+}
+
+/* sugar date */
+.sugar-background {
+    background-color: #67737d;
+}
+
+.sugar-background ul li:hover ul li a {
+    background-color: #67737d;
+}
+
+.sugar-chat-background {
+    background-color: #67737d;
+}
+
+.sugar-setting-background {
+    background-color: #67737d;
+}
+
+/* fræk date */
+.fræk-background {
+    background-color: #8f133e;
+}
+
+.fræk-background ul li:hover ul li a {
+    background-color: #8f133e;
+}
+
+.fræk-chat-background {
+    background-color: #8f123f;
+}
+
+.fræk-setting-background {
+    background-color: #8f123f;
+}
+
+/* BadBoy */
+.Affære-background {
+    background-color: #000000;
+}
+
+.Affære-background ul li:hover ul li a {
+    background-color: #000000;
+}
+
+.Affære-chat-background {
+    background-color: #000000;
+}
+
+.Affære-setting-background {
+    background-color: #000000;
+}
+
+/* senior date */
+.senior-background {
+    background-color: #6a2d10;
+}
+
+.senior-background ul li:hover ul li a {
+    background-color: #6a2d10;
+}
+
+.senior-chat-background {
+    background-color: #692d10;
+}
+
+.senior-setting-background {
+    background-color: #692d10;
+}
+
+/* regnbue date */
+.regnbue-background {
+    background-color: #7d2c95;
+}
+
+.regnbue-background ul li:hover ul li a {
+    background-color: #7d2c95;
+}
+
+.regnbue-chat-background {
+    background-color: #670095;
+}
+
+.regnbue-setting-background {
+    background-color: #670095;
+}
+
+
+
+.full-sidebar-area .logo-area a img {
+    padding: 20px;
+}
+
+.full-sidebar-area ul li {
+    cursor: pointer;
+}
+
+.full-sidebar-area ul li a {
+    display: block !important;
+    text-align: right;
+}
+
+.full-sidebar-area ul li a,
+.full-sidebar-area ul li .vertical-menu-link {
+    padding: 25px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: right;
+    border-bottom: 1px solid #f87d531a;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.full-sidebar-area ul li a p,
+.full-sidebar-area ul li .vertical-menu-link p {
+    text-align: right;
+    width: 100%;
+}
+
+.full-sidebar-area ul li a span,
+.full-sidebar-area ul li .vertical-menu-link span {
+    text-align: left;
+    width: 25px;
+}
+
+.full-sidebar-area ul li a i.zmdi-minus,
+.full-sidebar-area ul li .vertical-menu-link i.zmdi-minus {
+    display: none;
+}
+
+.full-sidebar-area ul li ul li:hover a {
+    color: #f87d53;
+}
+
+.full-sidebar-area ul li:hover a,
+.full-sidebar-area ul li:hover .vertical-menu-link {
+    background: #f87d53;
+}
+
+.full-sidebar-area ul li.open a i.zmdi-minus,
+.full-sidebar-area ul li.open .vertical-menu-link i.zmdi-minus {
+    display: block;
+}
+
+.full-sidebar-area ul li.open a i.zmdi-plus,
+.full-sidebar-area ul li.open .vertical-menu-link i.zmdi-plus {
+    display: none;
+}
+
+.main-content-area {
+    float: left;
+    width: 100%;
+    margin-top: 4.45rem;
+}
+
+.profile-header-area {
+    padding: 25px 20px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.profile-header-area .left-area .title h3 {
+    color: #0072b3;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.profile-header-area .right-area .link-and-button .btn-flat {
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.profile-header-area .right-area .link-and-button a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.profile-header-detail-area {
+    padding: 40px 50px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.profile-short-dec ul li {
+    padding: 5px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.profile-short-dec ul li:last-child {
+    padding-bottom: 0;
+}
+
+.profile-short-dec ul li:first-child {
+    padding-top: 0px;
+}
+
+.profile-short-dec ul li span {
+    color: #f87d53;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: inherit;
+    width: 100%;
+}
+
+.profile-short-dec ul li span.name {
+    font-family: "Poppins", sans-serif, Arial;
+    font-weight: 600;
+}
+
+.profile-short-dec ul li span.value {
+    font-family: "Poppins", sans-serif, Arial;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.profile-high-light-area {
+    padding: 25px 20px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.chat-room-area{
+    padding: 25px 20px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: block;
+}
+
+
+.profile-high-light-area .left-area .title h3 {
+    color: #000000;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 22px;
+    font-family: "Poppins", sans-serif, Arial;
+    font-weight: 400;
+}
+
+.profile-high-light-area .left-area .title h3 span {
+    font-family: "Poppins", sans-serif, Arial;
+    font-weight: 600;
+}
+
+.profile-high-light-area .right-area .link-and-button a {
+    margin-left: 15px;
+}
+
+.profile-high-light-area .right-area .link-and-button .block {
+    padding: 17px 45px;
+}
+
+
+.profile-decription-area {
+    padding: 35px 20px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.profile-decription-area .content p {
+    color: #000000;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.profile-list-few-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.profile-list-few-area .single-profile-list-few {
+    width: 50%;
+}
+
+ .single-profile-list-few .messages-profile-image {
+    position: relative;
+}
+
+.single-profile-list-few .messages-profile-image img {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+ .single-profile-list-few .messages-profile-image:hover .messages-profile-header {
+    opacity: 0.8;
+}
+
+ .single-profile-list-few .messages-profile-image .messages-profile-header {
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #Ff0005;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.single-profile-list-few .messages-profile-image .messages-profile-header .content {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 24px;
+    font-weight: 400;
+    height: 100%;
+    width: 100%;
+
+}
+
+.promotion-static-logo{
+    display: flex;
+    align-items: center;
+}
+.promotion-static-logo .title {
+    text-align: center;
+    display: block;
+}
+
+.link-hightlight-bar {
+    padding: 20px 20px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.link-hightlight-bar a {
+    margin-right: 15px;
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+}
+
+.latest-single-messages-profile {
+    padding: 20px 20px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.latest-single-messages-profile .div-title {
+    color: #000000;
+    font-family: "Poppins",
+        sans-serif,
+        Arial;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 2.5rem;
+}
+
+.latest-single-messages-profile .div-title h3 {
+    position: relative;
+    font-size: 1rem;
+}
+
+.latest-single-messages-profile .div-title h3:after {
+    width: 50px;
+    height: 4px;
+    background-color: #00b155;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+
+.latest-single-messages-profile .messages-profile-header-area {
+    margin-top: 45px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.latest-single-messages-profile .messages-profile-header-area .messages-profile-image {
+    margin-right: 28px;
+}
+
+.messages-profile-image a img {
+    width: 80px;
+    max-width: 80px;
+    height: 80px;
+}
+
+.latest-single-messages-profile .messages-profile-header-area .messages-profile-header {
+    color: #000000;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.latest-single-messages-profile .messages-profile-content-area p {
+    opacity: 0.9;
+    color: #000000;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.latest-single-messages-profile .messages-profile-header h2 {
+    font-size: 17px;
+}
+
+.latest-single-messages-profile .messages-profile-header h3 {
+    font-size: 17px;
+}
+
+.latest-single-messages-profile .messages-profile-header h4 {
+    font-size: 17px;
+}
+
+.latest-m-username{
+    font-size: 17px;
+}
+
+.search-bar-area {
+    padding: 20px 20px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.search-bar-area .search-header {
+    margin-bottom: 20px;
+}
+
+.search-bar-area .search-header h3 {
+    color: #000000;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+}
+
+.search-bar-area .search-header h3:after {
+    width: 50px;
+    height: 4px;
+    background-color: #00b155;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+
+.search-bar-area .search-form-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.search-bar-area .search-form-area .search-input-field {
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid #dcdcdc;
+    overflow: hidden;
+    position: relative;
+}
+
+.search-bar-area .search-form-area .search-input-field .search-input input {
+    height: 50px;
+    width: 100%;
+    border: 0px;
+    padding-left: 20px;
+}
+
+.search-bar-area .search-form-area .search-input-field .search-submit {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.search-bar-area .search-form-area .search-input-field .search-submit button {
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    margin-right: 10px;
+}
+
+.search-bar-area .search-form-area .search-submit-btn {
+    margin-left: 55px;
+}
+
+.learn-blog-area {
+    padding: 40px 50px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.learn-blog-area a {
+    color: #f87d53;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.learn-blog-area a.bold {
+    color: #f87d53;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.create-blog {
+    text-align: center;
+    padding: 30px 50px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.create-blog a {
+    text-align: center;
+    color: #f87d53;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.blog-room-area {
+    overflow: hidden;
+    padding: 20px 20px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.blog-room-area .blog-room-slider .blog-room-single-img {
+    width: 100%;
+}
+
+.blog-room-area .blog-room-slider .blog-room-single-content {
+    padding-left: 25px;
+    width: 100%;
+}
+
+.blog-room-area .blog-room-slider .blog-room-single-content .title h3 {
+    color: #000000;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.blog-room-area .blog-room-slider .blog-room-single-content .usename p {
+    color: #f87d53;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.blog-room-area .blog-room-slider .blog-room-single-content .content {
+    margin-top: 20px;
+}
+
+.blog-room-area .blog-room-slider .blog-room-single-content .content p {
+    color: #f87d53;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 16px;
+    font-weight: 400;
+    word-break: break-all;
+}
+
+.blog-room-area .blog-room-slider .blog-room-single-content .join-btn {
+    margin-top: 30px;
+}
+
+.blog-room-area .swiper-pagination.swiper-pagination-bullets {
+    width: 320px;
+    padding-right: 19px;
+    padding-bottom: 10px;
+    padding-right: 28px;
+}
+
+.blog-room-single-img {
+    width: 320px;
+}
+
+.blog-room-single-img img {
+    height: 350px;
+    border-radius: 3px;
+}
+
+.blog-room-area .swiper-pagination-bullets .swiper-pagination-bullet:after {
+    display: block;
+    width: 11px;
+    height: 11px;
+    z-index: 1;
+    content: "";
+    border: 0;
+    border-radius: 2px;
+    left: 0;
+    top: 0px;
+    position: absolute;
+    background: #ffffff00;
+}
+
+.blog-room-area .swiper-pagination-bullets .swiper-pagination-bullet {
+    position: relative;
+}
+
+.blog-room-area span.swiper-pagination-bullet.swiper-pagination-bullet-active:after {
+    background: #fff !important;
+}
+
+.blog-room-area .swiper-pagination-bullets .swiper-pagination-bullet {
+    float: right;
+    border: 3px solid transparent;
+    box-shadow: 0px 0px 0px 2px #ffffff;
+    width: 17px;
+    height: 17px;
+    border-radius: 2px;
+    background: #ffffff00;
+    margin: 5px 10px;
+}
+
+.peopel-slider-two.swiper-container-horizontal {
+    max-width: 770px;
+    overflow: hidden;
+}
+
+.latest-news-bar-area .swiper-container.swiper-container-horizontal {
+    max-width: 100%;
+}
+
+.peopel-slider-two.swiper-container-horizontal {
+    position: relative;
+}
+
+.main-media-area.Vaeggen-area .media-area .single-media-area {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.main-media-area {
+    padding: 20px 0px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.main-media-area .title-area {
+    padding: 0px 20px;
+    margin-bottom: 45px;
+}
+
+.main-media-area .title-area h3 {
+    position: relative;
+    font-size: 1rem;
+}
+
+.title-area .section-title {
+    position: relative;
+    font-size: 1rem;
+}
+
+.title-area .section-title::after {
+    width: 50px;
+    height: 4px;
+    background-color: #00b155;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+
+.main-media-area .title-area h3:after {
+    width: 50px;
+    height: 4px;
+    background-color: #00b155;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+
+.main-media-area .media-area .single-media-area {
+    padding: 15px 30px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.main-media-area .media-area .single-media-area .img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.main-media-area .media-area .single-media-area .img a {
+    width: 100px;
+}
+
+.main-media-area .media-area .single-media-area .img a img {
+    max-width: 100px;
+    height: 80px;
+    width: 100px;
+}
+
+.main-media-area .media-area .single-media-area .title-content {
+    margin-left: 30px;
+}
+
+.main-media-area .media-area .single-media-area .title-content h2 {
+    color: #000000;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 18px;
+    font-weight: 400;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.main-media-area .media-area .single-media-area .title-content p {
+    color: #000000;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 15px;
+    font-weight: 400;
+    word-break: break-all;
+}
+
+.main-media-area .media-area .single-media-area:hover {
+    background: #f87d53;
+}
+
+.main-media-area .media-area .single-media-area:hover .title-content h2 {
+    color: #ffffff;
+}
+
+.main-media-area .media-area .single-media-area:hover .title-content p {
+    color: #ffffff;
+}
+
+.icon-popup-area {
+    background-color: #000000db;
+    opacity: 1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.icon-popup-area .icon-popup {
+    width: 1000px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.icon-popup-area .icon-popup .icon-popup-close {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    left: -25px;
+    top: -25px;
+}
+
+.icon-popup-area .icon-popup .icon-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.icon-popup-area .icon-popup .icon-list a {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    text-align: center;
+    height: 230px;
+    padding: 20px;
+}
+
+.icon-popup-area .icon-popup .icon-list a img {
+    width: auto;
+    height: 100px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.icon-popup-area .icon-popup .icon-list a h2 {
+    color: #f87d53;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.icon-popup-area .icon-popup .icon-list .active {
+    background: #eb8967;
+}
+
+.icon-popup-area .icon-popup .icon-list .active h2 {
+    color: #fff;
+}
+
+.latest-profile-list-area {
+    padding: 20px 20px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.latest-profile-list-area .title-area {
+    padding: 0px 0px;
+    margin-bottom: 45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.latest-profile-list-area .title-area h3 {
+    position: relative;
+    font-size: 1rem;
+}
+
+.latest-profile-list-area .title-area h3:after {
+    width: 50px;
+    height: 4px;
+    background-color: #00b155;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+
+.latest-profile-list-area .title-area i {
+    color: #00b155;
+}
+
+.latest-profile-list-area .profile-list .single-item-profile {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.latest-profile-list-area .profile-list .single-item-profile a {
+    position: relative;
+}
+
+.latest-profile-list-area .profile-list .single-item-profile a img {
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    -webkit-box-shadow: 0 0 0px 5px #ec785100;
+    box-shadow: 0 0 0px 5px #ec785100;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    margin-bottom: 5px;
+}
+
+.latest-profile-list-area .profile-list .single-item-profile:hover a img {
+    -webkit-box-shadow: 0 0 0px 5px #ec7851b5;
+    box-shadow: 0 0 0px 5px #ec7851b5;
+}
+
+.latest-profile-list-area .no-slider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+    display: inline-block;
+    font: normal normal normal 14px/1 "Material-Design-Iconic-Font";
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    right: 0px;
+    left: auto;
+    background-image: none;
+}
+
+.swiper-button-next:before,
+.swiper-container-rtl .swiper-button-prev:before {
+    content: "\f2fb";
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+    display: inline-block;
+    font: normal normal normal 14px/1 "Material-Design-Iconic-Font";
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    left: 10px;
+    right: auto;
+    background-image: none;
+}
+
+.swiper-button-prev:before,
+.swiper-container-rtl .swiper-button-next:before {
+    content: "\f2fa";
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    margin-top: 0 !important;
+    font-size: 30px !important;
+    color: #b5b5b5;
+}
+
+.search-filter-area {
+    padding: 20px 20px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.search-filter-area .title-area {
+    padding: 0px 0px;
+    margin-bottom: 45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.search-filter-area .title-area h3 {
+    position: relative;
+    font-size: 1rem;
+}
+
+.search-filter-area .title-area h3:after {
+    width: 50px;
+    height: 4px;
+    background-color: #00b155;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+
+.search-filter-area .search-filter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.search-filter-area .search-filter .small {
+    max-width: 90px;
+}
+
+.search-filter-area .search-filter .single-input {
+    width: 150px !important;
+    margin-bottom: 7px;
+    display: inline-block;
+    position: relative;
+    border: 2px solid #b8b7b7;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.search-filter-area .search-filter .single-input input {
+    color: #000000;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 20px;
+    font-weight: 400;
+    border: 0;
+    height: 46px;
+    padding-left: 10px;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.search-filter-area .search-filter .single-input select {
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 20px;
+    font-weight: 400;
+    border: 0;
+    height: 46px;
+    padding-left: 10px;
+    border-radius: 25px;
+    margin-top: 0;
+    max-width: 155px !important;
+}
+
+.search-filter-area .search-filter .single-text {
+    margin-right: 10px;
+}
+
+.search-filter-area .search-filter .single-text p {
+    color: #000000;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.search-filter-area .search-filter .single-submit button {
+    padding: 15px 23px;
+    width: 91px;
+}
+
+.popular-group-area {
+    padding: 20px 20px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.popular-group-area .title-area {
+    padding: 0px 0px;
+    margin-bottom: 45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.popular-group-area .title-area h3 {
+    position: relative;
+    font-size: 1rem;
+}
+
+.popular-group-area .title-area h3:after {
+    width: 50px;
+    height: 4px;
+    background-color: #00b155;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+
+.popular-group-area .media-area .img-area {
+    width: 100%;
+    margin-right: 15px;
+}
+
+.popular-group-area .media-area .media-title-content {
+    width: 100%;
+}
+
+.popular-group-area .media-area .media-title-content h3 {
+    color: #000000;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.popular-group-area .media-area .media-title-content p {
+    color: #000000;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.latest-news-bar-area {
+    padding: 20px 20px 30px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.latest-news-bar-area .title-area {
+    padding: 0px 0px;
+    margin-bottom: 45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.latest-news-bar-area .title-area h3 {
+    position: relative;
+    font-size: 1rem;
+}
+
+.latest-news-bar-area .title-area h3:after {
+    width: 50px;
+    height: 4px;
+    background-color: #00b155;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+
+.latest-news-bar-area .media-area .media-title h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #000000;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.latest-news-bar-area .media-area .media-title h3 span {
+    opacity: 0.7;
+    color: #000000;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.latest-news-bar-area .media-area .media-content {
+    color: #000000;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 25px;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.latest-news-bar-area .media-area .media-content::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.latest-news-bar-area .media-area .media-content::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+.latest-news-bar-area .media-area .media-content::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #999;
+}
+
+.profile-setting-area {
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    /* background-color: #1b4da6; */
+    /* height: auto !important; */
+}
+
+.profile-setting-area .profile-setting-single {
+    padding: 15px;
+    border-bottom: 1px solid #f87d531a;
+}
+
+.profile-setting-area .profile-setting-single a img {
+    height: 40px;
+    width: auto;
+    margin-right: 30px;
+}
+
+.profile-setting-area .profile-setting-single a span {
+    /* color: #ffffff; */
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.profile-setting-area .profile-setting-single:last-child {
+    border: 0;
+}
+
+.profile-setting-area .profile-setting-single:hover {
+    background: #f87d53;
+    border-radius: 20px;
+}
+
+.profile-setting-single.active {
+    background: #f87d53;
+    border-radius: 20px;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #f87d53 !important;
+}
+
+form.profilt-sttting-ful-contetn {
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding-top: 45px;
+}
+
+form.profilt-sttting-ful-contetn .header-area {
+    padding: 0px 45px;
+    margin-bottom: 45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+form.profilt-sttting-ful-contetn .header-area h3 {
+    position: relative;
+    font-size: 1rem;
+}
+
+form.profilt-sttting-ful-contetn .header-area h3:after {
+    width: 50px;
+    height: 4px;
+    background-color: #00b155;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+
+form.profilt-sttting-ful-contetn .content-area {
+    padding: 0px 45px;
+}
+
+form.profilt-sttting-ful-contetn .content-area .checkbox-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+form.profilt-sttting-ful-contetn .content-area .checkbox-area p {
+    color: #000000;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 16px;
+    font-weight: 300;
+    margin-right: 20px;
+}
+
+form.profilt-sttting-ful-contetn .content-area .checkbox-area label.switch-bar {
+    max-width: 60px;
+    border-radius: 25px;
+}
+
+form.profilt-sttting-ful-contetn .submit-area-form {
+    padding: 25px 45px;
+    background-color: #f87d53;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: auto;
+    width: 100%;
+}
+
+form.profilt-sttting-ful-contetn .submit-area-form a:first-child {
+    background: #00000036;
+    margin-right: 10px;
+}
+
+.chat-list-area .profile-setting-single {
+    padding-left: 20px;
+}
+
+.chat-list-area .profile-setting-single a img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+
+}
+
+.chating-box-area {
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    background-color: #e7e7e7;
+}
+
+.chating-box-area .header-area {
+    padding: 27px 50px;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    background-color: #e7e7e7;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.chating-box-area .header-area h3 {
+    color: #000000;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+}
+.chating-box-area .header-area a {
+    color: #000000;
+
+}
+
+.chating-box-area .chat-box-area-pro .single-chat-area {
+    padding: 15px 50px;
+}
+
+.chating-box-area .chat-box-area-pro .single-chat-area .chat-box-content {
+    padding-right: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    border-radius: 15px 15px 15px 0;
+    background-color: #c8c8c8;
+    float: left;
+}
+.chating-box-area .chat-box-area-pro .right .time p {
+    text-align: right;
+}
+
+.chating-box-area .chat-box-area-pro .single-chat-area .time p {
+    color: #6c6c6c;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 11px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.chating-box-area .chat-box-area-pro .right .chat-box-content {
+    float: right;
+    padding-right: 0px;
+    padding-left: 20px;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    border-radius: 15px 15px 0;
+    background-color: #0072b3;
+}
+
+.chating-box-area .chat-box-area-pro .right .chat-box-content .chat-box-text p {
+    text-align: left;
+    color: #ffffff;
+}
+.cimage{
+    
+}
+.chat-bottom-area{
+    margin-top: auto !important;
+}
+.progress-bar { 
+    background-color: #f87d53 !important;
+    color: #f87d53 !important;
+}
+.chating-box-area .chat-butoon {
+    background-color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.chating-box-area .chat-butoon .left-area-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-right: 1px solid #e1eef6;
+    padding-right: 0px;
+    padding-left: 4px;
+}
+
+.chating-box-area .chat-butoon .left-area-icon .icon-tell i {
+    color: #0072b3;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 35px 10px;
+}
+
+.chating-box-area .chat-butoon .mdl-type-area {
+    border-right: 1px solid #e1eef6;
+    width: 100%;
+}
+
+.chating-box-area .chat-butoon .mdl-type-area input {
+    height: 40px;
+    width: 100%;
+    border: 0px;
+    padding: 0 15px;
+}
+
+.chating-box-area .chat-butoon .right-ttype-area {
+    padding-right: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.overflow-fix label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area section.check-box-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.logo-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.full-sidebar-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .full-sidebar-area ul.check-box-area label.check-container,
+.full-sidebar-area .chating-box-area .chat-butoon .right-ttype-area ul.check-box-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.profile-list-few-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.link-hightlight-bar label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.latest-single-messages-profile label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-bar-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .search-bar-area .check-box-area.search-header label.check-container,
+.search-bar-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-header label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .search-bar-area .check-box-area.search-form-area label.check-container,
+.search-bar-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-form-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .search-bar-area .search-form-area .check-box-area.search-input-field label.check-container,
+.search-bar-area .search-form-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-input-field label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.create-blog-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.blog-room-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.media-blogpost-seaction-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.main-media-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.latest-profile-list-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-filter-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.popular-group-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.latest-news-bar-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area form.check-box-area.profilt-sttting-ful-contetn label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.chat-box-area-pro label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .chat-box-area-pro .check-box-area.single-chat-area label.check-container,
+.chating-box-area .chat-box-area-pro .chat-butoon .right-ttype-area .check-box-area.single-chat-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .chat-box-area-pro .single-chat-area .check-box-area.time label.check-container,
+.chating-box-area .chat-box-area-pro .single-chat-area .chat-butoon .right-ttype-area .check-box-area.time label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.chat-butoon label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .online-box-area.height-100 .online-box-area-pro .check-box-area.single-online-area label.check-container,
+.online-box-area.height-100 .online-box-area-pro .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-online-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .online-box-area.profile-setting-area .online-box-area-pro .check-box-area.single-online-area label.check-container,
+.online-box-area.profile-setting-area .online-box-area-pro .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-online-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area form.online-box-area.profilt-sttting-ful-contetn .online-box-area-pro .check-box-area.single-online-area label.check-container,
+form.online-box-area.profilt-sttting-ful-contetn .online-box-area-pro .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-online-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.simple-popup-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .simple-popup-area .check-box-area.simple-pop-content-area label.check-container,
+.simple-popup-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.simple-pop-content-area label.check-container,
+.chating-box-area .chat-butoon .right-ttype-area .simple-popup-area .simple-pop-content-area .check-box-area.single-input-tile label.check-container,
+.simple-popup-area .simple-pop-content-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-input-tile label.check-container {
+    margin-bottom: 25px;
+}
+
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.overflow-fix label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area section.check-box-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.logo-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.full-sidebar-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .full-sidebar-area ul.check-box-area label.check-container span.check-checkmark,
+.full-sidebar-area .chating-box-area .chat-butoon .right-ttype-area ul.check-box-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.profile-list-few-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.link-hightlight-bar label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.latest-single-messages-profile label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-bar-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .search-bar-area .check-box-area.search-header label.check-container span.check-checkmark,
+.search-bar-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-header label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .search-bar-area .check-box-area.search-form-area label.check-container span.check-checkmark,
+.search-bar-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-form-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .search-bar-area .search-form-area .check-box-area.search-input-field label.check-container span.check-checkmark,
+.search-bar-area .search-form-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-input-field label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.create-blog-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.blog-room-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.media-blogpost-seaction-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.main-media-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.latest-profile-list-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-filter-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.popular-group-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.latest-news-bar-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area form.check-box-area.profilt-sttting-ful-contetn label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.chat-box-area-pro label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .chat-box-area-pro .check-box-area.single-chat-area label.check-container span.check-checkmark,
+.chating-box-area .chat-box-area-pro .chat-butoon .right-ttype-area .check-box-area.single-chat-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .chat-box-area-pro .single-chat-area .check-box-area.time label.check-container span.check-checkmark,
+.chating-box-area .chat-box-area-pro .single-chat-area .chat-butoon .right-ttype-area .check-box-area.time label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.chat-butoon label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .online-box-area.height-100 .online-box-area-pro .check-box-area.single-online-area label.check-container span.check-checkmark,
+.online-box-area.height-100 .online-box-area-pro .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-online-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .online-box-area.profile-setting-area .online-box-area-pro .check-box-area.single-online-area label.check-container span.check-checkmark,
+.online-box-area.profile-setting-area .online-box-area-pro .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-online-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area form.online-box-area.profilt-sttting-ful-contetn .online-box-area-pro .check-box-area.single-online-area label.check-container span.check-checkmark,
+form.online-box-area.profilt-sttting-ful-contetn .online-box-area-pro .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-online-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.simple-popup-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .simple-popup-area .check-box-area.simple-pop-content-area label.check-container span.check-checkmark,
+.simple-popup-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.simple-pop-content-area label.check-container span.check-checkmark,
+.chating-box-area .chat-butoon .right-ttype-area .simple-popup-area .simple-pop-content-area .check-box-area.single-input-tile label.check-container span.check-checkmark,
+.simple-popup-area .simple-pop-content-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-input-tile label.check-container span.check-checkmark {
+    background-color: #d9d9d9;
+}
+
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.overflow-fix label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area section.check-box-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.logo-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.full-sidebar-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .full-sidebar-area ul.check-box-area label.check-container span.check-checkmark:after,
+.full-sidebar-area .chating-box-area .chat-butoon .right-ttype-area ul.check-box-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.profile-list-few-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.link-hightlight-bar label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.latest-single-messages-profile label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-bar-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .search-bar-area .check-box-area.search-header label.check-container span.check-checkmark:after,
+.search-bar-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-header label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .search-bar-area .check-box-area.search-form-area label.check-container span.check-checkmark:after,
+.search-bar-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-form-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .search-bar-area .search-form-area .check-box-area.search-input-field label.check-container span.check-checkmark:after,
+.search-bar-area .search-form-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-input-field label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.create-blog-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.blog-room-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.media-blogpost-seaction-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.main-media-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.latest-profile-list-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-filter-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.popular-group-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.latest-news-bar-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area form.check-box-area.profilt-sttting-ful-contetn label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.chat-box-area-pro label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .chat-box-area-pro .check-box-area.single-chat-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-box-area-pro .chat-butoon .right-ttype-area .check-box-area.single-chat-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .chat-box-area-pro .single-chat-area .check-box-area.time label.check-container span.check-checkmark:after,
+.chating-box-area .chat-box-area-pro .single-chat-area .chat-butoon .right-ttype-area .check-box-area.time label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.chat-butoon label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .online-box-area.height-100 .online-box-area-pro .check-box-area.single-online-area label.check-container span.check-checkmark:after,
+.online-box-area.height-100 .online-box-area-pro .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-online-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .online-box-area.profile-setting-area .online-box-area-pro .check-box-area.single-online-area label.check-container span.check-checkmark:after,
+.online-box-area.profile-setting-area .online-box-area-pro .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-online-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area form.online-box-area.profilt-sttting-ful-contetn .online-box-area-pro .check-box-area.single-online-area label.check-container span.check-checkmark:after,
+form.online-box-area.profilt-sttting-ful-contetn .online-box-area-pro .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-online-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .check-box-area.simple-popup-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .simple-popup-area .check-box-area.simple-pop-content-area label.check-container span.check-checkmark:after,
+.simple-popup-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.simple-pop-content-area label.check-container span.check-checkmark:after,
+.chating-box-area .chat-butoon .right-ttype-area .simple-popup-area .simple-pop-content-area .check-box-area.single-input-tile label.check-container span.check-checkmark:after,
+.simple-popup-area .simple-pop-content-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-input-tile label.check-container span.check-checkmark:after {
+    left: 8px;
+    top: 2px;
+    width: 9px;
+    height: 16px;
+}
+
+.chating-box-area .chat-butoon .right-ttype-area .play-sent button {
+    background: transparent;
+}
+
+.chating-box-area .chat-butoon .right-ttype-area .play-sent button i.zmdi.zmdi-mail-send {
+    color: #0072b3;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.online-box-area.height-100,
+.online-box-area.profile-setting-area,
+form.online-box-area.profilt-sttting-ful-contetn {
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    /* background-color: #3c2b2b; */
+    padding: 20px 20px;
+}
+
+.online-box-area.height-100 .header-area h3,
+.online-box-area.profile-setting-area .header-area h3,
+form.online-box-area.profilt-sttting-ful-contetn .header-area h3 {
+    color: #c8c8c8;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.online-box-area.height-100 .online-box-area-pro,
+.online-box-area.profile-setting-area .online-box-area-pro,
+form.online-box-area.profilt-sttting-ful-contetn .online-box-area-pro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.online-box-area.height-100 .online-box-area-pro .single-online-area,
+.online-box-area.profile-setting-area .online-box-area-pro .single-online-area,
+form.online-box-area.profilt-sttting-ful-contetn .online-box-area-pro .single-online-area {
+    padding: 15px 0px;
+    max-width: 50%;
+    text-align: center;
+}
+
+.online-box-area.height-100 .online-box-area-pro .single-online-area:hover,
+.online-box-area.profile-setting-area .online-box-area-pro .single-online-area:hover,
+form.online-box-area.profilt-sttting-ful-contetn .online-box-area-pro .single-online-area:hover {
+    background: #f87d53;
+}
+
+.online-box-area.height-100 .online-box-area-pro .single-online-area .online-box-content .img-area,
+.online-box-area.profile-setting-area .online-box-area-pro .single-online-area .online-box-content .img-area,
+form.online-box-area.profilt-sttting-ful-contetn .online-box-area-pro .single-online-area .online-box-content .img-area {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.online-box-area.height-100 .online-box-area-pro .single-online-area .online-box-content .online-box-text p,
+.online-box-area.profile-setting-area .online-box-area-pro .single-online-area .online-box-content .online-box-text p,
+form.online-box-area.profilt-sttting-ful-contetn .online-box-area-pro .single-online-area .online-box-content .online-box-text p {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.online-box-area.height-100 .online-box-area-pro .single-online-area .online-box-content .online-box-text span,
+.online-box-area.profile-setting-area .online-box-area-pro .single-online-area .online-box-content .online-box-text span,
+form.online-box-area.profilt-sttting-ful-contetn .online-box-area-pro .single-online-area .online-box-content .online-box-text span {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.chat-list-area.profile-setting-area .profile-setting-single a .title h2 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.chat-list-area.profile-setting-area .profile-setting-single a .title p {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.chat-list-area.profile-setting-area .profile-setting-single a .time {
+    margin-left: auto;
+}
+
+.chat-list-area.profile-setting-area .profile-setting-single a .time p {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif, Arial;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.simple-popup-area {
+    max-width: 1000px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+
+#promotation-popup-area {
+    max-width: 600px;
+}
+
+.simple-popup-area .simple-pop-content-area {
+    padding: 20px;
+    background-color: #ffffff;
+    max-height: 605px;
+    overflow-y: auto;
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 575.98px) {
+    .simple-popup-area .simple-pop-content-area {
+        width: fit-content;
+    }
+    .croppie-container .cr-boundary {
+        margin-left: -84px;
+    }
+    .cr-slider {
+        margin-left: -133px;
+    }
+}
+
+.simple-popup-area .simple-pop-content-area .popup-title-simple {
+    margin-bottom: 25px;
+}
+
+.simple-popup-area .simple-pop-content-area .popup-title-simple h2 {
+    position: relative;
+}
+
+.simple-popup-area .simple-pop-content-area .popup-title-simple h2:after {
+    width: 50px;
+    height: 4px;
+    background-color: #00b155;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+
+.simple-popup-area .simple-pop-content-area .pop-up-dismis-area {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    left: -25px;
+    top: -25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.simple-popup-area .simple-pop-content-area .single-input-tile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.simple-popup-area .simple-pop-content-area .single-input-tile .input-title {
+    width: 130px;
+}
+
+.simple-popup-area .simple-pop-content-area .single-input-tile .input-title p {
+    color: #f87d53;
+    font-size: 17px;
+}
+
+.simple-popup-area .simple-pop-content-area .single-input-tile .upload-area-photo {
+    position: relative;
+}
+
+.simple-popup-area .simple-pop-content-area .single-input-tile .upload-area-photo input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.simple-popup-area .simple-pop-content-area .single-input-tile .upload-select {
+    position: relative;
+}
+
+.simple-popup-area .simple-pop-content-area .single-input-tile .upload-select select {
+    cursor: pointer;
+}
+
+.simple-popup-area .simple-pop-content-area .single-input-tile .upload-select i {
+    position: absolute;
+    right: 26px;
+    top: 18px;
+    color: #fff;
+}
+
+.simple-popup-area .simple-pop-content-area .single-input-tile .upload-select.textarea-upload {
+    width: 100%;
+}
+
+.simple-popup-area .simple-pop-content-area .single-input-tile .upload-select.textarea-upload textarea {
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+    border: 1px solid #f87d53;
+    max-width: 500px;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.main-header-mobile {
+    padding: 50px 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #ffffff;
+    margin-bottom: 10px;
+}
+
+.main-header-mobile .content a img {
+    height: 40px;
+}
+
+.mobile-area .logo-area {
+    display: none;
+}
+
+.mobile-area .full-sidebar-area {
+    position: fixed;
+    top: 140px;
+    right: 0;
+    z-index: 1;
+    width: 65%;
+}
+
+.main-header-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.mobile-area {
+    margin-top: 155px;
+}
+
+.mobile-area .full-sidebar-area {
+    position: fixed;
+    top: 150px;
+    right: 0;
+    width: 65%;
+    z-index: 1;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.mobile-area .profile-setting-area {
+    position: fixed;
+    top: 150px;
+    left: 0;
+    width: 65%;
+    z-index: 1;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.mobile-area .profilt-sttting-ful-contetn {
+    position: fixed;
+    top: 150px;
+    left: 0;
+    width: 65%;
+    z-index: 1;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.mobile-area .icon-popup-area {
+    position: fixed;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.mobile-area .learn-blog-area {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.icon-tse {
+    position: relative;
+}
+
+.icon-tse h3 {
+    color: #ffffff;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.icon-tse a {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.icon-tse a i {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+/* ---------------------------
+            Search
+-----------------------------*/
+a.dropdown-item.selected.active {
+    background-color: transparent;
+    color: #212529;
+}
+select {
+    background-image:
+        linear-gradient(45deg, transparent 50%, gray 50%),
+        linear-gradient(135deg, gray 50%, transparent 50%);
+    background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+}
+
+select:focus {
+    background-image:
+        linear-gradient(45deg, gray 50%, transparent 50%),
+        linear-gradient(135deg, transparent 50%, gray 50%);
+    background-position:
+        calc(100% - 15px) 1em,
+        calc(100% - 20px) 1em,
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+    outline: 0;
+}
+
+.styled-checkbox {
+    position: absolute;
+    opacity: 0;
+}
+
+.styled-checkbox+label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+}
+
+.styled-checkbox+label:before {
+    content: "";
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 1px solid #ccc;
+}
+
+.styled-checkbox:hover+label:before {
+    background: #f35429;
+}
+
+.styled-checkbox:focus+label:before {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+}
+
+.styled-checkbox:checked+label:before {
+    background: #f35429;
+}
+
+.styled-checkbox:checked+label:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 9px;
+    background: white;
+    width: 2px;
+    height: 2px;
+    box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white,
+        4px -6px 0 white, 4px -8px 0 white;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.search-criteria ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.search-criteria ul li {
+    display: inline-block;
+}
+
+.area {
+    width: 200px;
+    line-height: 2.3;
+    padding: 0 20px;
+    display: block;
+}
+
+#matchword {
+    min-width: 500px;
+}
+
+.search-selection {
+    width: 220px;
+    line-height: 2.3;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+@media only screen and (min-width: 300px) and (max-width: 575.98px) {
+    .search-selection {
+        width: 100%;
+    }
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+        width: 100% !important;
+    }
+}
+
+.advance-search-left ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+.advance-search-left ul {
+    margin-top: 10px;
+}
+
+.advance-search-left p {
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.advance-search-left label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.advance-search-left select.area {
+    margin-bottom: 15px;
+    background-color: transparent;
+}
+
+.advance-search-left .filter-option {
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    display: block;
+}
+
+.advance-search-left .dropdown.bootstrap-select.show-tick {
+    margin-top: 0;
+    padding: 0;
+}
+
+.advance-search-right label {
+    width: 125px;
+}
+
+.advance-search {
+    margin-bottom: 25px;
+}
+
+.a-search-matchword .bootstrap-tagsinput {
+    width: 221px;
+    min-height: 38px;
+}
+
+.single-title-area .title-area h3:after {
+    width: 50px;
+    height: 4px;
+    background-color: #00b155;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 35px;
+}
+.search-result-title:after {
+    width: 50px;
+    height: 4px;
+    background-color: #00b155;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 55px;
+}
+.title-area h3{
+    font-size: 1rem;
+}
+
+.bootstrap-select>.dropdown-toggle.bs-placeholder {
+    color: #999;
+    background-color: transparent;
+    border-radius: 0px;
+    border-color: rgb(169, 169, 169);
+}
+
+.selectpicker .show>.btn-light.dropdown-toggle {
+    color: #212529;
+    background-color: transparent;
+    border-color: rgb(169, 169, 169);
+}
+
+.bootstrap-select>.dropdown-toggle {
+    background-color: transparent !important;
+    border-color: rgb(169, 169, 169) !important;
+    height: 36px;
+}
+.bootstrap-select {
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 575.98px) {
+    .profile-decription-area {
+        padding: 15px;
+    }
+
+    .profile-decription-area .content p {
+        font-size: 15px;
+    }
+
+    .btn-flat,
+    .btn-radiaus {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .profile-high-light-area .left-area .title h3 {
+        font-size: 18px;
+    }
+
+    .profile-high-light-area .right-area .link-and-button {
+        display: block;
+    }
+
+    .profile-high-light-area .right-area .link-and-button a {
+        margin-top: 10px;
+    }
+
+    .profile-header-detail-area {
+        padding: 15px;
+    }
+
+    .profile-header-area {
+        padding: 15px;
+        display: block;
+    }
+
+    .profile-header-area .left-area .title h3 {
+        font-size: 20px;
+    }
+
+    .profile-header-area .right-area .link-and-button .btn-flat {
+        margin-right: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .profile-header-area .right-area .link-and-button a {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .blog-room-area {
+        padding: 10px;
+    }
+
+    .blog-room-area .blog-room-slider {
+        display: block;
+    }
+
+    .blog-room-area .blog-room-slider .blog-room-single-img {
+        width: 100%;
+    }
+
+    .mobile-area .learn-blog-area {
+        display: block;
+    }
+
+    .search-bar-area {
+        padding: 10px;
+    }
+
+    .search-bar-area .search-header {
+        margin-bottom: 20px;
+    }
+
+    .search-bar-area .search-form-area {
+        display: block;
+    }
+
+    .search-bar-area .search-form-area .search-submit-btn {
+        margin-left: 65%;
+        margin-top: 55px;
+    }
+
+    .icon-popup-area .icon-popup {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    .icon-popup-area .icon-popup .icon-list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .icon-popup-area .icon-popup .icon-list a {
+        -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+        text-align: center;
+        height: 100px;
+        padding: 10px;
+    }
+
+    .icon-popup-area .icon-popup .icon-list a img {
+        width: auto;
+        height: 40px;
+        background-color: #ffffff;
+        margin: 0 auto;
+    }
+
+    .icon-popup-area .icon-popup .icon-list a h2 {
+        color: #f87d53;
+        font-family: "Poppins", sans-serif, Arial;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .icon-popup-area .icon-popup .icon-list .active {
+        background: #eb8967;
+    }
+
+    .icon-popup-area .icon-popup .icon-list .active h2 {
+        color: #fff;
+    }
+
+    .latest-single-messages-profile {
+        padding: 10px;
+    }
+
+    .latest-single-messages-profile .messages-profile-header-area .messages-profile-header {
+        margin-top: 10px;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .latest-single-messages-profile .messages-profile-content-area p {
+        font-size: 16px;
+    }
+
+    .popular-group-area .media-area {
+        display: block;
+    }
+
+    .main-media-area .media-area .single-media-area {
+        padding: 10px;
+        display: block;
+    }
+
+    .main-media-area .media-area .single-media-area .img {
+        max-width: 100%;
+        max-height: inherit;
+        margin-bottom: 10px;
+    }
+
+    .main-media-area .media-area .single-media-area .img a {
+        width: 100%;
+    }
+
+    .main-media-area .media-area .single-media-area .img a img {
+        width: 100%;
+        height: 130px;
+    }
+
+    .main-media-area .media-area .single-media-area .title-content {
+        margin-left: 10px;
+    }
+
+    .main-media-area.Vaeggen-area .media-area .single-media-area {
+        display: block;
+    }
+
+    .search-filter-area .search-filter {
+        display: block;
+    }
+
+    .search-filter-area .search-filter .single-text {
+        margin-left: 5px;
+        display: inline-block;
+    }
+
+    .mobile-area {
+        margin-top: 85px;
+    }
+
+    .mobile-area .full-sidebar-area {
+        top: 80px;
+    }
+
+    .mobile-area .profile-setting-area {
+        top: 80px;
+    }
+
+    .mobile-area .profilt-sttting-ful-contetn {
+        top: 80px;
+    }
+
+    .mobile-area .icon-popup-area {
+        top: 20px;
+    }
+
+    .mobile-area .chat-list-area,
+    .mobile-area .profile-setting-area,
+    .mobile-area .profilt-sttting-ful-contetn {
+        width: 100%;
+    }
+
+    .main-header-mobile {
+        padding: 20px 10px;
+    }
+
+    .main-header-mobile .content a img {
+        height: 30px;
+    }
+
+    .chating-box-area .header-area {
+        padding: 20px;
+    }
+
+    .chating-box-area .header-area h3 {
+        font-size: 20px;
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .chating-box-area .chat-box-area-pro .single-chat-area {
+        padding: 5px 10px;
+    }
+
+    .chating-box-area .chat-box-area-pro .single-chat-area .time {
+        margin-top: 5px;
+    }
+
+    .chating-box-area .chat-box-area-pro .single-chat-area .time p {
+        font-size: 14px;
+    }
+
+    .chating-box-area .chat-butoon .left-area-icon {
+        widows: 100%;
+        border-bottom: 1px solid #e1eef6;
+    }
+
+    .chating-box-area .chat-butoon .left-area-icon .icon-tell i {
+        padding: 15px 10px;
+    }
+
+    .chating-box-area .chat-butoon .mdl-type-area {
+        max-width: 65%;
+        width: 100%;
+        float: left;
+        margin-right: 10px;
+        border-right: 1px solid #e1eef6;
+    }
+
+    .chating-box-area .chat-butoon .mdl-type-area input {
+        height: 50px;
+        padding-left: 15px;
+    }
+
+    .chating-box-area .chat-butoon .right-ttype-area {
+        height: 50px;
+    }
+
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.overflow-fix label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area section.check-box-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.logo-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.full-sidebar-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .full-sidebar-area ul.check-box-area label.check-container,
+    .full-sidebar-area .chating-box-area .chat-butoon .right-ttype-area ul.check-box-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.profile-list-few-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.link-hightlight-bar label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.latest-single-messages-profile label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-bar-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .search-bar-area .check-box-area.search-header label.check-container,
+    .search-bar-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-header label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .search-bar-area .check-box-area.search-form-area label.check-container,
+    .search-bar-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-form-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .search-bar-area .search-form-area .check-box-area.search-input-field label.check-container,
+    .search-bar-area .search-form-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-input-field label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.create-blog-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.blog-room-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.media-blogpost-seaction-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.main-media-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.latest-profile-list-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-filter-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.popular-group-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.latest-news-bar-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area form.check-box-area.profilt-sttting-ful-contetn label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.chat-box-area-pro label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .chat-box-area-pro .check-box-area.single-chat-area label.check-container,
+    .chating-box-area .chat-box-area-pro .chat-butoon .right-ttype-area .check-box-area.single-chat-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .chat-box-area-pro .single-chat-area .check-box-area.time label.check-container,
+    .chating-box-area .chat-box-area-pro .single-chat-area .chat-butoon .right-ttype-area .check-box-area.time label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.chat-butoon label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .online-box-area.height-100 .online-box-area-pro .check-box-area.single-online-area label.check-container,
+    .online-box-area.height-100 .online-box-area-pro .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-online-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .online-box-area.profile-setting-area .online-box-area-pro .check-box-area.single-online-area label.check-container,
+    .online-box-area.profile-setting-area .online-box-area-pro .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-online-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area form.online-box-area.profilt-sttting-ful-contetn .online-box-area-pro .check-box-area.single-online-area label.check-container,
+    form.online-box-area.profilt-sttting-ful-contetn .online-box-area-pro .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-online-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.simple-popup-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .simple-popup-area .check-box-area.simple-pop-content-area label.check-container,
+    .simple-popup-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.simple-pop-content-area label.check-container,
+    .chating-box-area .chat-butoon .right-ttype-area .simple-popup-area .simple-pop-content-area .check-box-area.single-input-tile label.check-container,
+    .simple-popup-area .simple-pop-content-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-input-tile label.check-container {
+        margin-bottom: 25px;
+    }
+
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.overflow-fix label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area section.check-box-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.logo-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.full-sidebar-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .full-sidebar-area ul.check-box-area label.check-container span.check-checkmark,
+    .full-sidebar-area .chating-box-area .chat-butoon .right-ttype-area ul.check-box-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.profile-list-few-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.link-hightlight-bar label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.latest-single-messages-profile label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-bar-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .search-bar-area .check-box-area.search-header label.check-container span.check-checkmark,
+    .search-bar-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-header label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .search-bar-area .check-box-area.search-form-area label.check-container span.check-checkmark,
+    .search-bar-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-form-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .search-bar-area .search-form-area .check-box-area.search-input-field label.check-container span.check-checkmark,
+    .search-bar-area .search-form-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-input-field label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.create-blog-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.blog-room-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.media-blogpost-seaction-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.main-media-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.latest-profile-list-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-filter-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.popular-group-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.latest-news-bar-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area form.check-box-area.profilt-sttting-ful-contetn label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.chat-box-area-pro label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .chat-box-area-pro .check-box-area.single-chat-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-box-area-pro .chat-butoon .right-ttype-area .check-box-area.single-chat-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .chat-box-area-pro .single-chat-area .check-box-area.time label.check-container span.check-checkmark,
+    .chating-box-area .chat-box-area-pro .single-chat-area .chat-butoon .right-ttype-area .check-box-area.time label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.chat-butoon label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .online-box-area.height-100 .online-box-area-pro .check-box-area.single-online-area label.check-container span.check-checkmark,
+    .online-box-area.height-100 .online-box-area-pro .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-online-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .online-box-area.profile-setting-area .online-box-area-pro .check-box-area.single-online-area label.check-container span.check-checkmark,
+    .online-box-area.profile-setting-area .online-box-area-pro .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-online-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area form.online-box-area.profilt-sttting-ful-contetn .online-box-area-pro .check-box-area.single-online-area label.check-container span.check-checkmark,
+    form.online-box-area.profilt-sttting-ful-contetn .online-box-area-pro .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-online-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.simple-popup-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .simple-popup-area .check-box-area.simple-pop-content-area label.check-container span.check-checkmark,
+    .simple-popup-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.simple-pop-content-area label.check-container span.check-checkmark,
+    .chating-box-area .chat-butoon .right-ttype-area .simple-popup-area .simple-pop-content-area .check-box-area.single-input-tile label.check-container span.check-checkmark,
+    .simple-popup-area .simple-pop-content-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-input-tile label.check-container span.check-checkmark {
+        background-color: #d9d9d9;
+    }
+
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.overflow-fix label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area section.check-box-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.logo-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.full-sidebar-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .full-sidebar-area ul.check-box-area label.check-container span.check-checkmark:after,
+    .full-sidebar-area .chating-box-area .chat-butoon .right-ttype-area ul.check-box-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.profile-list-few-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.link-hightlight-bar label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.latest-single-messages-profile label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-bar-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .search-bar-area .check-box-area.search-header label.check-container span.check-checkmark:after,
+    .search-bar-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-header label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .search-bar-area .check-box-area.search-form-area label.check-container span.check-checkmark:after,
+    .search-bar-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-form-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .search-bar-area .search-form-area .check-box-area.search-input-field label.check-container span.check-checkmark:after,
+    .search-bar-area .search-form-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-input-field label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.create-blog-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.blog-room-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.media-blogpost-seaction-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.main-media-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.latest-profile-list-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.search-filter-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.popular-group-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.latest-news-bar-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area form.check-box-area.profilt-sttting-ful-contetn label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.chat-box-area-pro label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .chat-box-area-pro .check-box-area.single-chat-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-box-area-pro .chat-butoon .right-ttype-area .check-box-area.single-chat-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .chat-box-area-pro .single-chat-area .check-box-area.time label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-box-area-pro .single-chat-area .chat-butoon .right-ttype-area .check-box-area.time label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.chat-butoon label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .online-box-area.height-100 .online-box-area-pro .check-box-area.single-online-area label.check-container span.check-checkmark:after,
+    .online-box-area.height-100 .online-box-area-pro .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-online-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .online-box-area.profile-setting-area .online-box-area-pro .check-box-area.single-online-area label.check-container span.check-checkmark:after,
+    .online-box-area.profile-setting-area .online-box-area-pro .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-online-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area form.online-box-area.profilt-sttting-ful-contetn .online-box-area-pro .check-box-area.single-online-area label.check-container span.check-checkmark:after,
+    form.online-box-area.profilt-sttting-ful-contetn .online-box-area-pro .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-online-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .check-box-area.simple-popup-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .simple-popup-area .check-box-area.simple-pop-content-area label.check-container span.check-checkmark:after,
+    .simple-popup-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.simple-pop-content-area label.check-container span.check-checkmark:after,
+    .chating-box-area .chat-butoon .right-ttype-area .simple-popup-area .simple-pop-content-area .check-box-area.single-input-tile label.check-container span.check-checkmark:after,
+    .simple-popup-area .simple-pop-content-area .chating-box-area .chat-butoon .right-ttype-area .check-box-area.single-input-tile label.check-container span.check-checkmark:after {
+        left: 8px;
+        top: 2px;
+        width: 9px;
+        height: 16px;
+    }
+
+    .chating-box-area .chat-butoon .right-ttype-area .play-sent button {
+        background: transparent;
+    }
+
+    .chating-box-area .chat-butoon .right-ttype-area .play-sent button i.zmdi.zmdi-mail-send {
+        color: #0072b3;
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+
+.search-filter-area .search-filter .small {
+    max-width: 85px !important;
+}
+
+.search-filter-area .search-filter {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+/* atta input filed ar jonno atta popup ar jonno  */
+
+.modal-dialog {
+    position: relative;
+}
+
+.modal-dialog button.close:hover {
+    opacity: 1 !important;
+}
+
+.modal-dialog button.close {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 50%;
+    line-height: 19px;
+    text-align: center;
+    left: -26px;
+    top: -14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 38px;
+    opacity: 1;
+    background-image: url(/img/icon/cancel.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 575.98px) and (min-width: 300px) {
+    .modal-dialog button.close {
+        right: 5%;
+        top: 7%;
+    }
+
+    .skiftportal {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+.modal-dialog button.close span {
+    display: none;
+}
+
+.modal-dialog h5#exampleModalLabel:after {
+    width: 50px;
+    height: 4px;
+    background-color: #00b155;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+
+.modal-dialog h5#exampleModalLabel {
+    position: relative;
+}
+
+.modal-dialog .modal-header {
+    border: 0;
+}
+
+/* Design update css */
+
+.search-filter-area .search-filter .small {
+    max-width: 85px !important;
+}
+
+.search-filter-area .search-filter {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    transform: scale(.9);
+    margin-left: 0;
+}
+
+atta input filed ar jonno atta popup ar jonno .modal-dialog {
+    position: relative;
+}
+
+.modal-dialog button.close:hover {
+    opacity: 1 !important;
+}
+
+.modal-dialog button.close {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 50%;
+    line-height: 19px;
+    text-align: center;
+    left: -26px;
+    top: -14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 38px;
+    opacity: 1;
+    background-image: url(img/icon/cancel.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.modal-dialog button.close span {
+    display: none;
+}
+
+.modal-dialog h5#exampleModalLabel:after {
+    width: 50px;
+    height: 4px;
+    background-color: #00b155;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+
+.modal-dialog h5#exampleModalLabel {
+    position: relative;
+}
+
+.modal-dialog .modal-header {
+    border: 0;
+}
+
+span.begud {
+    background: #f87d53;
+    border-radius: 5px;
+    padding: 0px 7px;
+    font-size: 10px;
+    top: -10px;
+    position: relative;
+    color: #fff;
+}
+
+ul.vertical-menu-sub {
+    position: relative;
+}
+
+.notification-area {
+    position: absolute;
+    left: -310px;
+    top: 0;
+    background: #3c2b2b;
+    max-width: 300px;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 1;
+    min-width: 300px;
+    border-radius: 4px;
+    display: none;
+}
+
+.notification-area .nito-single-item a {
+    padding: 20px 20px;
+    color: #fff !important;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: left;
+}
+
+.notification-area .nito-single-item:hover a {
+    color: #fff;
+    background: #191111;
+}
+
+ul.vertical-menu-sub li a {
+    position: relative;
+}
+
+ul.vertical-menu-sub li a:after {
+    content: "";
+    display: block;
+    background: #3c2b2b;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 45%;
+    left: -25px;
+    transform: rotate(45deg);
+    display: none;
+}
+
+ul.vertical-menu-sub li {
+    position: relative;
+}
+
+.show-pp a:after {
+    display: block !important;
+}
+
+.show-pp .notification-area {
+    display: block;
+}
+
+.chating-box-area {
+    position: relative;
+    height: calc(100vh - 4.45rem);
+}
+
+.chat-box-area-pro {
+    max-height: 98vh;
+    overflow-y: auto;
+}
+
+.chating-box-area .chat-butoon {
+    min-height: 50px;
+    max-height: 50px;
+    overflow-y: hidden;
+    float: left;
+    clear: both;
+}
+
+.profile-list-few-area .single-profile-list-few {
+    height: 280px;
+    overflow: hidden;
+    margin-bottom: 3px;
+}
+
+.profile-list-few-area .single-profile-list-few .messages-profile-image {
+    position: relative;
+    height: 280px;
+    margin-right: 3px;
+}
+
+/* ---------------------------
+    Profile Search Result
+-----------------------------*/
+.profile-list .profile-item {
+    display: inline-grid;
+    text-align: center;
+}
+
+.profile-item {
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.profile-name {
+    font-size: 14px;
+}
+
+/* ---------------------------
+    ChatRooms Show
+-----------------------------*/
+@media only screen and (min-width: 300px) and (max-width: 575.98px) {
+    .chat-room-list {
+        text-align: center;
+    }
+}
+
+.chatroom-item {
+    margin-bottom: 15px;
+    margin-right: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 160px;
+}
+
+.chatroom-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.chatroom-name {
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.latest-profile-list-area.fav-people-area {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 590px;
+    overflow: hidden;
+}
+
+.chat-room-area h3:after {
+    width: 50px;
+    height: 4px;
+    background-color: #00b155;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 60px;
+}
+
+.profile-edit-area h3::after{
+    top: 37px;
+}
+
+.chat-room-list{
+    margin-top: 50px !important;
+}
+
+
+div#portalSelectionModal form.d-inline {
+    float: left;
+    width: 33.33333%;
+    margin-bottom: 10px;
+}
+
+div#portalSelectionModal form.d-inline button.btn.btn-outline-danger {
+    width: 100%;
+    border: 0;
+    color: #f87e54;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+.signup-modal-img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.signup-avatar-preview{
+    margin-bottom: -29px;
+    margin-top: -40px;
+    width: 100px !important;
+    height: 100px !important;
+    position: relative;
+    border-radius: 100%;
+    border: 6px solid #f8f8f8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1)
+}
+
+
+div#icon-popup form.d-inline {
+    float: left;
+    width: 33.33333%;
+    margin-bottom: 10px;
+}
+
+div#icon-popup form.d-inline button.btn.btn-outline-danger {
+    width: 100%;
+    border: 0;
+    color: #f87e54;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+
+div#icon-popup form.d-inline img {
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+#skiftPortalModal form img {
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+
+div#icon-popup form.d-inline button.btn.btn-outline-danger:hover {
+    background: transparent;
+
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 575.98px) {
+    div#icon-popup form.d-inline {
+        width: 50%;
+    }
+
+    div#icon-popup form.d-inline img {
+        height: 60px;
+    }
+
+    div#icon-popup form.d-inline button.btn.btn-outline-danger {
+        font-size: 16px;
+    }
+}
+
+
+.full-sidebar-area ul li {
+    float: right;
+    width: 100%;
+}
+
+
+.main-content-area ul.faq {
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    width: 100%;
+    float: left;
+}
+
+.main-content-area ul.faq .bc-accordian-item a i {
+    font-size: 15px;
+    margin-bottom: 15px;
+    border-left: 2px solid #f87d53;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.main-content-area ul.faq .bc-accordian-item div p {
+    margin-left: 25px;
+    background: #c2c7cb1f;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.main-content-area ul.faq li {
+    margin-bottom: 25px;
+    width: 100%;
+    float: left;
+    height: auto;
+    clear: both;
+}
+
+
+/* ......................
+chat box profileImage
+...................... */
+.single-chat-area .chat-box-content .img-area img {
+    max-width: 40px;
+    max-height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    border: 2px solid #ffffff;
+}
+
+
+
+/* ------------------
+online dot symbole
+------------------ */
+.avatar-link-online {
+    display: inline-block;
+    position: relative;
+    line-height: 1.2;
+}
+
+.avatar-link-online img {
+    vertical-align: top;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.avatar-link-online .corner-finder {
+    border: 2px solid #ffffff;
+    position: absolute;
+    top: 8.8%;
+    bottom: 0.8%;
+    right: 14.8%;
+    left: 75.8%;
+    z-index: 1;
+    content: '';
+    display: block;
+    width: 17px;
+    height: 17px;
+    background-color: rgb(1, 177, 39);
+    transform: translate(5px, 5px);
+    border-radius: 50%;
+}
+.avatar-link-online .slider-corner-finder {
+    border: 2px solid #ffffff;
+    position: absolute;
+    top: 0.8%;
+    bottom: 0.8%;
+    right: 14.8%;
+    left: 69.8%;
+    z-index: 1;
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(1, 177, 39);
+    transform: translate(5px, 5px);
+    border-radius: 50%;
+}
+
+.avatar-link-online .corner-finder-home-slider {
+    position: absolute;
+    top: 0.8%;
+    bottom: 0.8%;
+    right: 14.8%;
+    left: 61.8%;
+    z-index: 1;
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(1, 177, 39);
+    transform: translate(5px, 5px);
+    /* half width and height */
+    border-radius: 50%;
+}
+
+/* profile page image and video css */
+.main-glarry-area {
+    padding: 25px 20px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+    float: left;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+#videoupload-popup-area{
+    max-width: 400px;
+}
+
+@media only screen and (max-width: 575.98px) and (min-width: 300px) {
+    .main-glarry-area {
+        margin-bottom: 15px;
+    }
+}
+
+.tabcontent li,
+#aniimated-thumbnials a {
+    display: inline-block;
+    float: left;
+}
+
+
+.tabcontent li img,
+#aniimated-thumbnials a img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.main-glarry-area .profile-setting-area {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 25px;
+    overflow-y: inherit;
+}
+
+.main-glarry-area .profile-setting-area .profile-setting-single {
+    width: 100%;
+    text-align: center;
+}
+
+.main-glarry-area .profile-setting-area .profile-setting-single a span {
+    text-align: center;
+    width: 100%;
+}
+
+.tabcontent li a {
+    text-align: center;
+    display: block;
+}
+
+
+
+.star-cb-group {
+    /* remove inline-block whitespace */
+    font-size: 0;
+    /* flip the order so we can use the + and ~ combinators */
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    /* the hidden clearer */
+}
+
+.star-cb-group * {
+    font-size: 30px;
+}
+
+.star-cb-group>input {
+    display: none;
+}
+
+.star-cb-group>input+label {
+    /* only enough room for the star */
+    display: inline-block;
+    overflow: hidden;
+    text-indent: 9999px;
+    width: 1em;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.messages-profile-header-area form {
+    float: right;
+    width: 100%;
+}
+
+.messages-profile-header-area fieldset {
+    float: right;
+}
+
+.star-cb-group>input+label:before {
+    display: inline-block;
+    text-indent: -9999px;
+    content: "☆";
+    color: #888;
+}
+
+.star-cb-group>input:checked~label:before,
+.star-cb-group>input+label:hover~label:before,
+.star-cb-group>input+label:hover:before {
+    content: "★";
+    color: #f87d53;
+    text-shadow: 0 0 1px #333;
+}
+
+.star-cb-group>.star-cb-clear+label {
+    text-indent: -9999px;
+    width: .5em;
+    margin-left: -.5em;
+}
+
+.star-cb-group>.star-cb-clear+label:before {
+    width: .5em;
+}
+
+.star-cb-group:hover>input+label:before {
+    content: "☆";
+    color: #888;
+    text-shadow: none;
+}
+
+.star-cb-group:hover>input+label:hover~label:before,
+.star-cb-group:hover>input+label:hover:before {
+    content: "★";
+    color: #f87d53;
+    text-shadow: 0 0 1px #333;
+}
+
+.messages-profile-header-area form h3 {
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+
+.messages-profile-header-area form h4 {
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+
+/* -------------
+rating
+------------- */
+.rating {
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    line-height: 1;
+    font-size: 35px;
+}
+
+.rating label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: pointer;
+}
+
+.rating label:last-child {
+    position: static;
+}
+
+.rating label:nth-child(1) {
+    z-index: 5;
+}
+
+.rating label:nth-child(2) {
+    z-index: 4;
+}
+
+.rating label:nth-child(3) {
+    z-index: 3;
+}
+
+.rating label:nth-child(4) {
+    z-index: 2;
+}
+
+.rating label:nth-child(5) {
+    z-index: 1;
+}
+
+.rating label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.rating label .icon {
+    float: left;
+    color: transparent;
+}
+
+@media only screen and (max-width: 575.98px) and (min-width: 300px) {
+    .rating label .icon {
+        font-size: 40px;
+    }
+}
+
+.rating label:last-child .icon {
+    color: #000;
+}
+
+.rating:not(:hover) label input:checked~.icon,
+.rating:hover label:hover input~.icon {
+    color: #f87d53;
+}
+
+.rating label input:focus:not(:checked)~.icon:last-child {
+    color: #000;
+    text-shadow: 0 0 5px #f87d53;
+}
+
+.rating-details{
+    position: absolute;
+    right: 10%;
+    margin-top: -30px;
+}
+
+@media only screen and (max-width: 575.98px) and (min-width: 300px) {
+    .rating-details {
+        margin-top: 0px;
+    }
+    .status-promotion-btn{
+        width: 180px;
+        margin-left: -15px;
+    }
+}
+
+.self-rating{
+    margin-left: 53px;
+    display: inline-block;
+}
+/* ---------------
+  Upload photo
+----------------  */
+.avatar-upload {
+    position: relative;
+    max-width: 205px;
+    margin: 20px auto;
+    margin-left: 83px;
+}
+
+.avatar-upload-blog {
+    position: relative;
+    max-width: 205px;
+    margin: 9px 0px;
+}
+
+.avatar-upload .avatar-edit {
+    position: absolute;
+    right: 15px;
+    z-index: 1;
+    top: 10px;
+}
+
+.avatar-upload .avatar-edit input {
+    display: none;
+}
+
+.avatar-upload .avatar-edit input+label {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 0;
+    border-radius: 100%;
+    background: #ffffff;
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+}
+
+.avatar-upload .avatar-edit input+label:hover {
+    background: #f1f1f1;
+    border-color: #d6d6d6;
+}
+
+.avatar-upload .avatar-edit input+label:after {
+    content: "\f278";
+    font: normal normal normal 20px/1 "Material-Design-Iconic-Font";
+    color: #555;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    font-weight: 900;
+}
+
+.avatar-upload .avatar-preview {
+    width: 192px;
+    height: 192px;
+    position: relative;
+    border-radius: 100%;
+    border: 6px solid #f8f8f8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.avatar-upload .editProfile-avatar-preview {
+    margin-bottom: -39px;
+    margin-top: -17px;
+    margin-left: -88px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 100%;
+    border: 6px solid #f8f8f8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-upload .avatar-preview>div {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ---------------------------
+          Group
+----------------------------*/
+
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #3490dc;
+    border-color: #3490dc;
+}
+
+.group-creator-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.group-member {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.group-members a {
+    display: inline-block;
+    text-align: center;
+}
+
+.group-cover-img {
+    width: 100%;
+    max-height: 270px;
+}
+
+/*Fun begins*/
+.tab_container {
+    margin-top: 30px;
+    position: relative;
+}
+
+.tab_container input,
+.tab_container section {
+    padding-top: 50px;
+    display: none;
+}
+
+.tab_container label {
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
+    float: left;
+    width: 25%;
+    color: #757575;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    background: #fff;
+}
+
+#tab1:checked~#content1,
+#tab2:checked~#content2,
+#tab3:checked~#content3,
+#tab4:checked~#content4,
+#tab5:checked~#content5 {
+    display: block;
+    color: #999;
+    float: none;
+}
+
+.tab-content a {
+    display: inline-block;
+    text-align: center;
+}
+
+.similiar-group .card .card-img-top {
+    width: 100%;
+    height: 200px;
+}
+
+
+/*Media query*/
+@media only screen and (max-width: 930px) {
+    label span {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .tab_container {
+        width: 98%;
+    }
+}
+
+/*Content Animation*/
+@keyframes fadeInScale {
+    0% {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.group-post {
+    margin-top: 10px;
+}
+
+.group-post input {
+    display: inline-block;
+    width: 100%;
+}
+
+.post-user,
+.media-post-user {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+.group-activity {
+    margin-left: 6.3%;
+    margin-bottom: 10px;
+}
+.comment-text{
+    margin-left: 11%;
+}
+.post-commentor {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    margin-left: 6%;
+}
+
+.group-post textarea,
+.group-media-post textarea {
+    margin-top: 2px;
+    width: 82%;
+    resize: none;
+}
+
+.media-post {
+    width: 175px;
+    height: 262px;
+}
+
+a.post-user img {
+    width: 45px;
+    max-width: 45px;
+    height: 45px;
+    border-radius: 50px;
+}
+
+/* ---------------------------
+                      Event
+          -----------------------------*/
+.event-creator-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.event-members {
+    
+    max-height: 115px;
+    overflow-y: auto;
+}
+.group-member{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.event-members a {
+    display: inline-block;
+    text-align: center;
+   
+}
+
+.event-cover-img {
+    width: 100%;
+    max-height: 270px;
+}
+
+.similiar-event .card .card-img-top {
+    width: 100%;
+    height: 200px;
+}
+
+.event-post-user-image{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.event-post-text-body{
+     margin-left: -4%;
+}
+
+.event-comment-user-image{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.event-comment-card {
+    margin-left: 12%;
+}
+
+.event-comment-text-body{
+    margin-left: -6%;
+}
+
+.event-comment-user {
+    font-size: 12px !important;
+}
+.event-post-user {
+    font-size: 18px !important;
+}
+.event-comment-text-body time{
+    font-size: 12px !important;
+}
+
+
+/* ---------------------------
+    Group, Event, Blog
+-----------------------------*/
+.blog-creator-img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.blog-title {
+    font-size: 1.7rem;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.blog-subtitle {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.blog-featured-img {
+    width: 100%;
+    height: 350px;
+}
+
+@media only screen and (max-width: 575px) {
+    .blog-featured-img {
+        height: 180px;
+    }
+}
+
+.blog-post{
+    padding: 30px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.group-creator,
+.blog-creator {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+
+.event-area {
+    padding: 30px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.event-area a {
+    font-size: 20px;
+}
+
+.group-area .group-name {
+    font-size: 20px;
+}
+
+.group-area .nav-link {
+    font-size: 20px;
+}
+
+.event-creator {
+    display: flex;
+    align-items: center;
+   
+    background-color: #ffffff;
+}
+
+.event-creator-name {
+    margin-left: 10px;
+}
+
+
+
+.group-area {
+    padding: 30px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.group-members {
+
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    margin: 20px 0;
+}
+
+
+div#statusModal {
+    display: none;
+}
+
+.similiar-group .card {
+    margin-bottom: 20px;
+}
+
+.profile-list-few-area {
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+/* Image Gallery */
+.gallery {
+    width: 100%;
+    text-align: center;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.gallery_creator_details .username {
+    font-size: 12px;
+    line-height: 1;
+}
+
+.gallery_creator_details span {
+    font-size: 10px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.gallery>div {
+    display: inline-block;
+    margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.gal-img {
+    transition: 0.2s ease-in-out;
+    width: 195px;
+    height: 185px;
+}
+
+.gal-img:hover {
+    transform: scale(1.3);
+    z-index: 1;
+}
+img#gallery-img {
+	max-height: calc(100vh - 225px);
+}
+.modal {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Video Gallery */
+#video-gallery li {
+    display: inline;
+}
+
+#video-gallery li img {
+    width: 100%;
+    max-width: 250px;
+}
+
+#video-gallery {
+    padding: 25px 20px;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+/* ---------------------------
+                      FAQ
+          -----------------------------*/
+.faq {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.faq li a i {
+    font-style: normal;
+    padding: 0 1rem 0 0;
+    text-decoration: none;
+}
+
+.faq li a i:before {
+    content: "+";
+    padding: 0 1rem;
+}
+
+.bc-accordian-item a {
+    background: linear-gradient(to bottom, #fcfcfc 0%, #f2f2f2 100%);
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    color: #004b8d;
+    border: 1px solid #f1f1f1;
+    display: block;
+    font-weight: 700;
+    padding: 1rem 0.3rem;
+    text-decoration: none;
+    transition: color 0.3s ease-in;
+}
+
+.faq li a:hover {
+    color: #00add8;
+}
+
+.bc-accordian-item {
+    padding: 0.3rem;
+}
+
+.bc-accordian-item div {
+    display: none;
+}
+
+.bc-accordian-item-link-on {
+    background: linear-gradient(to bottom, #00add8 0%, #004b8d 100%);
+    color: #fff;
+}
+
+.bc-accordian-item-link-on:hover {
+    color: #fff;
+}
+
+.bc-accordian-item-link-on i:before {
+    content: "\2013";
+}
+
+/* ---------------------------
+                      Chatroom
+          -----------------------------*/
+.chatroom-list .chatroom-item {
+    display: inline-block;
+    text-align: center;
+}
+
+.chatroom-item .btn-radiaus {
+    font-size: 14px;
+    padding: 8px 20px;
+    box-shadow: none;
+    color: #fff;
+}
+
+
+/*--------------------------
+          Navbar
+--------------------------*/
+
+#notification-popup p {
+    line-height: 2;
+}
+
+#notification-popup p button {
+    float: right;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#notification-popup .pop-up-dismis-area {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    left: -25px;
+    top: -25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    left: 23.5%;
+}
+
+/* --------------------
+magnific popup
+-------------------- */
+.modal-backdrop.show {
+    opacity: 0;
+}
+
+.modal-backdrop {
+    position: inherit;
+}
+
+/* -------------------------------------
+removing right space of container-fluid
+---------------------------------------*/
+.latest-profile-list-area.fav-people-area {
+    position: relative;
+}
+
+.peopel-slider-one.swiper-container-horizontal {
+    max-width: 280px;
+    padding: 0 0px;
+    overflow: hidden;
+    margin: 0 30px;
+    text-align: center;
+}
+
+.profile-list.fav-pop-slider.swiper-wrapper {
+    max-width: 280px;
+}
+
+.slider-profile-name {
+    font-size: 14px;
+    font-weight: 100;
+    display: block;
+}
+
+.slider-profile-desc {
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+    left: 25px !important;
+}
+
+div#icon-popup02 {
+    z-index: 10;
+}
+
+/* ========================
+live profile detail edit
+======================== */
+.form-control.nochange {
+    border-color: white;
+}
+
+.form-control.pending {
+    border-color: #a00;
+}
+
+.form-control.saved {
+    border-color: #0a0;
+}
+
+/* ========================
+responsive mobile design
+======================== */
+
+header.main-header-mobile {
+    display: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767.98px) {
+    header.main-header-mobile {
+        display: flex;
+    }
+
+    .responsive-gap-menu {
+        margin-top: 20px;
+    }
+
+    .right-sidebar-area {
+        position: fixed;
+        right: -9999px;
+        z-index: 9999;
+        top: 90px;
+        transition: .8s;
+    }
+
+    .renum-menu-open .right-sidebar-area {
+        right: 0px;
+        transition: .8s;
+        overflow: auto;
+        display: block;
+        height: 100%;
+        z-index: 1;
+    }
+    .navbar{
+        display: none;
+    }
+}
+
+/* Video Gallery */
+.video-gallery {
+    padding: 20px 20px;
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.video-gallery ul li {
+    display: inline-block;
+}
+
+/* ==========
+image crop
+========== */
+
+
+.croppie-container .cr-image {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: 0 0;
+    max-width: none;
+}
+
+.croppie-container .cr-boundary {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-image: url(/img/backgroundLogo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.croppie-container .cr-viewport {
+    position: absolute;
+    border: 2px solid #fff;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 0 0 2000px 2000px rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.croppie-container .cr-vp-circle {
+    border-radius: 50%;
+}
+
+.croppie-container .cr-overlay {
+    z-index: 1;
+    position: absolute;
+    cursor: move;
+}
+
+.croppie-container .cr-slider-wrap {
+    width: 295px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.croppie-result {
+    position: relative;
+    overflow: hidden;
+}
+
+.croppie-result img {
+    position: absolute;
+}
+
+.croppie-container .cr-image,
+.croppie-container .cr-overlay,
+.croppie-container .cr-viewport {
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.cr-slider {
+    -webkit-appearance: none;
+    width: 300px;
+    max-width: 100%;
+}
+
+.cr-slider::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 3px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 0;
+    border-radius: 3px;
+}
+
+.cr-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #ddd;
+    margin-top: -6px;
+}
+
+.cr-slider:focus {
+    outline: none;
+}
+
+.cr-slider::-moz-range-track {
+    width: 100%;
+    height: 3px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 0;
+    border-radius: 3px;
+}
+
+.cr-slider::-moz-range-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #ddd;
+    margin-top: -6px;
+}
+
+/*hide the outline behind the border*/
+.cr-slider:-moz-focusring {
+    outline: 1px solid white;
+    outline-offset: -1px;
+}
+
+.cr-slider::-ms-track {
+    width: 300px;
+    height: 5px;
+    background: transparent;
+    /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
+    border-color: transparent;
+    /*leave room for the larger thumb to overflow with a transparent border */
+    border-width: 6px 0;
+    color: transparent;
+    /*remove default tick marks*/
+}
+
+.cr-slider::-ms-fill-lower {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.cr-slider::-ms-fill-upper {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.cr-slider::-ms-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #ddd;
+}
+
+.cr-slider:focus::-ms-fill-lower {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.cr-slider:focus::-ms-fill-upper {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.cr-rotate-controls {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    z-index: 1;
+}
+
+.cr-rotate-controls button {
+    border: 0;
+    background: none;
+}
+
+.cr-rotate-controls i:before {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.cr-rotate-l i:before {
+    content: 'â†º';
+}
+
+.cr-rotate-r i:before {
+    content: 'â†»';
+}
+
+/* ***********************
+chat responsive
+*********************** */
+.chat-create-area {
+    display: none;
+}
+
+.responsive-caht-page {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 80px;
+    width: 0%;
+    overflow-y: auto;
+    padding-bottom: 50px;
+    transition: .3s;
+    z-index: 9;
+}
+
+.pro-next-list {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 80px;
+    width: 0%;
+    height: auto;
+    overflow-y: auto;
+    max-height: 400px;
+    padding-bottom: 50px;
+    transition: .3s;
+    z-index: 9;
+}
+
+.responsive-caht-page.res-menu-opn {
+    width: 100%;
+}
+
+.pro-menu-opn.pro-next-list {
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+    .chat-create-area {
+        display: inline-block;
+    }
+
+    .manm-reasion-qut {
+        display: none;
+    }
+}
+
+.responsive-caht-page .profile-setting-single a {
+    position: relative;
+}
+
+.responsive-caht-page .profile-setting-single a:after {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    display: inline-block;
+    font: normal normal normal 14px/1 'Material-Design-Iconic-Font';
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: '\f2fb';
+    width: 30px;
+    height: 30px;
+    font-size: 45px;
+    color: #fff;
+}
+
+/* user dashboard slider  */
+.carousel-inner .carousel-item .panel .panel-thumbnail a:hover {
+    text-decoration: none;
+}
+
+.carousel-inner .carousel-item .panel .panel-thumbnail a img {
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    box-shadow: 0 0 0px 5px #ec785100;
+    transition: 0s;
+    margin-bottom: 5px;
+}
+
+.carousel-inner .carousel-item .panel .panel-thumbnail a img:hover {
+    box-shadow: 0 0 0px 5px #ec7851b5;
+}
+
+.user-info {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.popular-group-area img{
+    min-height: 135px;
+}
+
+@media (min-width: 768px) {
+
+    /* show 3 items */
+    .carousel-inner .active,
+    .carousel-inner .active+.carousel-item,
+    .carousel-inner .active+.carousel-item+.carousel-item {
+        display: block;
+    }
+
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item {
+        transition: .001s;
+    }
+
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+
+    .carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+        position: absolute;
+        top: 0;
+        right: 33.3333%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* left or forward direction */
+    .active.carousel-item-left+.carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left+.carousel-item,
+    .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item,
+    .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    /* farthest right hidden item must be abso position for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* right or prev direction */
+    .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right+.carousel-item,
+    .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item,
+    .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    color: #b5b5b5;
+    font-size: 40px;
+    top: -40px;
+}
+
+.carousel-control-prev {
+    left: -14px;
+}
+
+.carousel-control-next {
+    right: -14px;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+    color: #b5b5b5;
+}
+
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+    color: #b5b5b5 !important;
+}
+
+.panel-thumbnail {
+    padding-top: 5px;
+}
+
+/* --------------
+status list page 
+---------------*/
+
+.staus-image {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 4;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 4;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 5;
+    }
+}
+
+/* transition table */
+.table-transaction thead {
+    color: #fff;
+    background-color: #0072b3;
+}
+
+.table-transaction {
+    border: 1px solid #ccc;
+}
+
+/* skift portal */
+#skiftPortalModal form {
+    float: left;
+    width: 33.33333%;
+    margin-bottom: 10px;
+}
+
+.nav-item .dropdown-menu.show {
+    border-top: 4px solid #ff5252;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    -webkit-box-shadow: 2px 2px 15px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 15px -5px rgba(0, 0, 0, 0.75);
+}
+
+.matchWord-area{
+    width: 40%;
+    font-weight: 600;
+    font-size: 25px;
+}
+.matchWord-area h3 span {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 575.98px) and (min-width: 300px) {
+    .matchWord-area {
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+}
+
+.link-and-button{
+    display: flex;
+}
+
+.fav-btn {
+    width: 130px;
+}
+
+.bloker-btn {
+    width: 130px;
+}
+
+
+@media only screen and (max-width: 575.98px) and (min-width: 300px) {
+    .link-and-button {
+        display: grid;
+    }
+    .fav-btn {
+        width: 100%;
+    }
+    .bloker-btn {
+        width: 100%;
+    }
+}
+
+a.popup-modal-dismiss img {
+    top: 25%;
+    position: absolute;
+    right: 25%;
+}
+
+#imageupload-popup-area {
+    max-width: 500px;
+}
+
+/* **********************
+    username color section
+********************** */
+.user-male {
+    text-transform: lowercase;
+    color: blue !important;
+}
+.user-female {
+    text-transform: lowercase;
+    color: pink !important;
+}
+.user-par {
+    text-transform: lowercase;
+    color: green !important;
+}
+
+
+/* ***************
+block list page
+*************** */
+.block-list-username{
+    display: flex;
+    align-items: center;
+}
+.block-list-image{
+   width: 70px;
+   height: 70px;
+   max-width: 70px;
+   border-radius: 50%;
+}
+.block-list-button{
+   display: flex;
+   align-items: center;
+}
+
+.blocked-users h3:after {
+    width: 50px;
+    height: 4px;
+    background-color: #00b155;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 70px;
+    / left: 0;/
+}
+
+/* ********************
+blog comment section
+******************** */
+
+/*Comment List styles*/
+.comment-list .row {
+    margin-bottom: 0px;
+}
+
+.comment-list .panel .panel-heading {
+    padding: 4px 15px;
+    position: absolute;
+    border: none;
+    /*Panel-heading border radius*/
+    border-top-right-radius: 0px;
+    top: 1px;
+}
+
+.comment-list .panel .panel-heading.right {
+    border-right-width: 0px;
+    /*Panel-heading border radius*/
+    border-top-left-radius: 0px;
+    right: 16px;
+}
+
+.comment-list .panel .panel-heading .panel-body {
+    padding-top: 6px;
+}
+
+.comment-list figcaption {
+    /*For wrapping text in
+thumbnail*/
+    word-wrap: break-word;
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 768px) {
+
+    .comment-list .arrow:after,
+    .comment-list .arrow:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-color:
+            transparent;
+    }
+
+    .comment-list .panel.arrow.left:after,
+    .comment-list .panel.arrow.left:before {
+        border-left: 0;
+    }
+
+    /*****Left
+Arrow*****/
+    /*Outline effect style*/
+    .comment-list .panel.arrow.left:before {
+        left: 0px;
+        top: 30px;
+        /*Use boarder color of
+panel*/
+        border-right-color: inherit;
+        border-width: 16px;
+    }
+
+    /*Background color effect*/
+    .comment-list .panel.arrow.left:after {
+        left: 1px;
+        top: 31px;
+        /*Change for different outline color*/
+        border-right-color: #FFFFFF;
+        border-width: 15px;
+    }
+
+    /*****Right
+Arrow*****/
+    /*Outline effect style*/
+    .comment-list .panel.arrow.right:before {
+        right: -16px;
+        top: 30px;
+        /*Use boarder color
+of panel*/
+        border-left-color: inherit;
+        border-width: 16px;
+    }
+
+    /*Background color effect*/
+    .comment-list .panel.arrow.right:after {
+        right: -14px;
+        top: 31px;
+        /*Change for different outline color*/
+        border-left-color: #FFFFFF;
+        border-width: 15px;
+    }
+}
+
+.comment-list .comment-post {
+    margin-top: 6px;
+}
+
+.blog-comment-img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+header#image-modal___BV_modal_header_{
+    padding: 0;
+}
+
+.hover-image{
+    display: none;
+    position: absolute;
+    margin-top: -107px;
+    margin-left: 78px;
+}
+.hover-video{
+    display: none;
+    position: absolute;
+    margin-top: -107px;
+    margin-left: 147px;
+}
+.profile-image:hover .hover-image {
+    display: block;
+    position: absolute;
+    z-index: 999;
+}
+.profile-video:hover .hover-video {
+    display: block;
+    position: absolute;
+    z-index: 999;
+}
+
+
+/* all image modal css */
+.image-modal-header {
+    padding: unset;
+}
+.image-modal-close-btn{
+    z-index: 9;
+}
+
+.goingToFree-checkbox-area{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.goingToFree-checkbox-area .switch-bar{
+    max-width: 60px;
+    margin-left: 10px;
+}
+
+.gallery-pagination {
+    margin-bottom: -99px;
+}
+
+.btn-disabled {
+    background-color: darkgray !important;
+}
+
+
+.btn-disabled:hover{
+    background-color: darkgray !important;
+    cursor: default;
+}
+
+.blur-item{
+    filter: blur(6px);
+}
+.blur-item-view{
+    filter: blur(20px);
+}
+
+/* input file default text */
+
+.btn-select-file {
+    border-radius: 20px !important;
+    background-color: transparent !important;
+    cursor: pointer !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    border: 1px solid;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.single-page-user-details img{
+    height: 250px !important;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 182px !important;
+    
+}
+
+
+/* ****************
+  user profile 
+*****************/
+.nav-item .nav-link.active {
+    color: #fff;
+    background-color: #f87d53;
+    border-color: #f87d53;
+}
+
+
+.dot-style li::before {
+    content: "\2022";
+    color: #000000;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* ====================
+  image wrong rotation 
+======================= */
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.rotate180 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.rotate270 {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}

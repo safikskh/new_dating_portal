@@ -1,0 +1,287 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+}
+
+
+
+
+.chat-box-sec {
+  border-left: 1px solid #eee;
+  position: relative;
+}
+
+#backgroundimg {
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  animation: zoom 20s infinite alternate;
+}
+
+.main {
+  background-color: rgba(255, 255, 255, 0.04);
+  height: 100vh;
+  overflow: auto;
+}
+
+.receiver-msg.msg-btn {
+  margin-bottom: 20px;
+}
+
+/* .main:hover {
+    width: 410px;
+  }
+   */
+.header {
+  color: #fff;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  background-color: #fff;
+  right: 0;
+}
+
+#pfpname {
+  transition: letter-spacing 0.3s ease;
+}
+
+#pfpname {
+  color: #000;
+  letter-spacing: 2px;
+}
+
+.notifications {
+  background: #2796db;
+  border-radius: 100%;
+  aspect-ratio: 1;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: transform 2s ease;
+}
+
+.notifications:hover {
+  transition: transform 2s ease;
+}
+
+.header .pfp {
+  aspect-ratio: 1;
+  width: 40px;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: transform 1s ease;
+}
+
+.pfp:hover {
+  transform: scale(1.2);
+}
+
+.header .center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.header .center div p {
+  margin: 0;
+  font-weight: 700;
+}
+
+/*   
+  .footer {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    display: inline-flex;
+    align-items: center;
+  } */
+
+.text-box {
+  border-radius: 10px;
+  background: none;
+  padding: 10px 10px;
+  width: 100%;
+  outline: none;
+  color: #000;
+  transition: transform 1s ease, width 1s ease;
+  border: 1px solid #333;
+}
+
+/* .text-box:hover {
+    width: 75%;
+  } */
+
+.send-ico {
+  color: #fff;
+  position: absolute;
+  right: 0;
+  padding: 5px 15px;
+  cursor: pointer;
+  position: absolute;
+  top: 17px;
+  right: 25px;
+  border-radius: 4px;
+  background-color: #1b4da6;
+  border-color: #1b4da6;
+}
+
+.text-box::placeholder {
+  color: #000;
+  font-family: BraahOne;
+}
+
+.content {
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 70px;
+  padding-top: 95px;
+}
+
+.msg-btn h5 {
+  font-size: 16px;
+  padding: 0 10px;
+  text-transform: capitalize;
+  color: #2798fc;
+}
+
+.msg-btn p {
+  color: #fff;
+  word-wrap: break-word;
+  border-radius: 100px;
+  display: inline-block;
+  max-width: 100%;
+  font-size: 14px;
+  font-family: "BraahOne";
+}
+
+.msg-btn p {
+  padding: 10px 15px;
+  margin: 0;
+}
+
+.msg-btn-holder {
+  padding-bottom: 30px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.receiver-msg p {
+  background: #4c4c4c;
+  float: left;
+}
+
+.sender-msg {
+  background: #2798fc;
+  float: right;
+}
+
+.input-box {
+  width: 100%;
+  padding: 11px;
+  position: absolute;
+  bottom: 0;
+  background: #fff;
+  box-shadow: 2px 2px 10px #eee;
+}
+
+.input-box button {
+  border: 0;
+  color: #fff;
+  background: unset;
+  text-transform: capitalize;
+}
+
+.fa-arrow-left:before {
+  color: #000;
+}
+
+
+.emojionearea.emojionearea-inline>.emojionearea-editor {
+  top: 7px;
+}
+
+.emojionearea.emojionearea-inline {
+  height: 45px;
+}
+
+.emojionearea.emojionearea-inline>.emojionearea-button {
+  top: 11px;
+  right: 90px;
+}
+
+#copy-link {
+  background-color: #1b4da6;
+  border-color: #1b4da6;
+  color: #fff;
+  padding: 15px 40px;
+  outline: none;
+  border-radius: 8px;
+  border: 0;
+}
+
+
+#local-media {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.btn-main-box {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.btn-main-box .end-btn button{
+  background-color: #d0000c;
+  border-color: #d0000c;
+  color: #fff;
+  padding: 15px 40px;
+  outline: none;
+  border-radius: 8px;
+  border: 0;
+}
+
+video {
+  max-width: 400px;
+}
+
+
+
+@media (max-width: 767px) {
+  .chat-box-sec {
+    border: 1px solid #eee;
+   
+  }
+  video {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 375px){
+  #copy-link{
+    padding: 12px 30px;
+  }
+  .btn-main-box{
+    gap: 20px;
+  }
+  video {
+    max-width: 230px;
+  }
+}
