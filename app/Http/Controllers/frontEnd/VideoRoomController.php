@@ -21,8 +21,8 @@ class VideoRoomController extends Controller
 
     public function getRoom($id)
     {
-        $room = VideoChatRoom::where('creator_id', $id)->first();
-
+        $room = VideoChatRoom::where('id', $id)->first();
+        // dd($room);
         $accountSid = config('constant.TWILIO_ACCOUNT_SID');
         $authToken = config('constant.TWILIO_AUTH_TOKEN');
         $apiKeySid = config('constant.TWILLIO_SID');

@@ -172,7 +172,7 @@
                                 </div>
                             </div>
 
-
+                            {{-- @dd($roomName,$accessToken,$roomID,$identity) --}}
                         </div>
 
                     </div>
@@ -182,14 +182,14 @@
     </div>
 
 
-    <script src="https://sdk.twilio.com/js/video/releases/2.22.1/twilio-video.min.js"></script>
+    <script src="//sdk.twilio.com/js/video/releases/2.17.1/twilio-video.min.js"></script>
     <script src="{{ url('js/jquery-3.3.1.min.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js"></script>
     <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
     <script>
         $(document).ready(function() {
-            $('#msg').emojioneArea();
+            // $('#msg').emojioneArea();
         });
     </script>
     <script>
@@ -205,13 +205,21 @@
         }).then(room => {
             console.log('Connected to Room "%s"', room.name, room);
 
-            var localTracksPromise = Twilio.Video.createLocalTracks();
-            localTracksPromise.then(function(localTracks) {
-                localTracks.forEach(function(track) {
-                    document.getElementById('local-media').appendChild(track.attach());
-                });
-            })
-
+            try {
+                var localTracksPromise = Twilio.Video.createLocalTracks();
+                localTracksPromise.then(function(localTracks) {
+                    localTracks.forEach(function(track) {
+                        console.log({
+                            track
+                        })
+                        document.getElementById('local-media').appendChild(track.attach());
+                    });
+                })
+            } catch (err) {
+                console.log({
+                    err
+                })
+            }
             room.participants.forEach(function(participant) {
                 console.log('Participant name: ', participant.identity);
             });
@@ -249,7 +257,9 @@
         })
 
         function participantConnected(participant) {
-            console.log(participant);
+            console.log({
+                participant
+            });
             console.log('Participant "%s" connected', participant.identity);
 
             // const div = document.createElement('div');
