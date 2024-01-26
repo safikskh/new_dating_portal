@@ -252,4 +252,14 @@ class VideoRoomController extends Controller
         $res['msg'] = 'success';
         return $res;
     }
+
+    public function webChangeStatus()
+    {
+        $is_webcam_online = User::where('id',\Auth::id())->first();
+        $is_webcam_online->is_webcam_online = 0;
+        $is_webcam_online->save();
+        $res['msg'] = 'success';
+        $res['flag'] = 1;
+        return $res;
+    }
 }

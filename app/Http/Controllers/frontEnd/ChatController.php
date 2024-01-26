@@ -25,8 +25,17 @@ class ChatController extends Controller
         $authToken = config('constant.TWILIO_AUTH_TOKEN');
         $apiKeySid = config('constant.TWILLIO_SID');
         $apiKeySecret = config('constant.TWILLIO_SECRET_KEY');
-        $roomName = $room->room_name;
-        $param['room_id'] = $room->id;
+        if(empty($room)) {
+            $roomName = '';
+            $roomID = '';
+            $param['room_id'] = '';
+            $no_of_participants ='';
+        } else {
+            $roomName = $room->room_name;
+            $roomID = $room->id;
+            $param['room_id'] = $room->id;
+            $no_of_participants = $room->no_of_participants;
+        }
         $param['user_id'] = \Auth::id();
         // dd($accountSid, $apiKeySid, $apiKeySecret, 3600, 'admin');
         // $this->joinRoom($param);
@@ -36,8 +45,8 @@ class ChatController extends Controller
         $accessToken->addGrant($videoGrant);
         $videoGrant->setRoom($roomName);
         // Return the view with the access token
-        return view('frontEnd.memberships.video2', [
-            'accessToken' => $accessToken->toJWT(), 'roomID' => $room->id, 'roomName' => $roomName, 'participants' => $room->no_of_participants, 'identity' => \Auth::user()->email
+        return view('frontEnd.memberships.webcam', [
+            'accessToken' => $accessToken->toJWT(), 'roomID' => $roomID, 'roomName' => $roomName, 'participants' => $no_of_participants, 'identity' => \Auth::user()->email
         ]);
     }
 
@@ -73,7 +82,7 @@ class ChatController extends Controller
         $is_chat_online->save();
         $room = self::addWebRoom($param);
 
-        return redirect("webroom/$room");
+        return redirect("chatroom/$room");
         // Return the view with the access token
     }
 
@@ -94,6 +103,16 @@ class ChatController extends Controller
         $param['room_id'] = $room->id;
         $joinUser = VideoRoomJoinUser::joinParticipant($param);
         return $room->id;
+    }
+
+    public function chatChangeStatus()
+    {
+        $is_chat_online = User::where('id',\Auth::id())->first();
+        $is_chat_online->is_chat_online = 0;
+        $is_chat_online->save();
+        $res['msg'] = 'success';
+        $res['flag'] = 1;
+        return $res;
     }
     
 }

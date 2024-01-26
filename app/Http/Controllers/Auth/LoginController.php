@@ -64,29 +64,39 @@ class LoginController extends Controller
      */
     public function handleProviderCallback(Request $request)
     {
-      
+
         $userSocial = Socialite::driver('facebook')->stateless()->user();
 
         if ($userSocial) {
             $findUser = User::where('email', $userSocial->email)->first();
-            if($findUser) {
+            if ($findUser) {
                 Auth::login($findUser);
                 return redirect()->route('home');
-            }else{
+            } else {
 
-                session()->put('fbSignup1',[
+                session()->put('fbSignup1', [
                     'type' => 'facebook',
                     'email' => $userSocial->email,
                     'password' => Str::random(8),
-                    'profilePicture' => $userSocial->avatar_original,                
+                    'profilePicture' => $userSocial->avatar_original,
                 ]);
                 return redirect()->route('signup.show.fbPortals');
             }
-        }else{
+        } else {
             return redirect()->back();
         }
-        
     }
 
+    public function logout(Request $request)
+    {
+        $user = User::where('id', auth()->user()->id)->first();
+        $user->is_webcam_online = 0;
+        $user->is_chat_online = 0;
+        $user->save();
+        $this->guard()->logout();
 
+        $request->session()->invalidate();
+
+        return $this->loggedOut($request) ?: redirect('/');
+    }
 }

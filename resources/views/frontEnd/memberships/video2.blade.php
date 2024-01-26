@@ -166,7 +166,7 @@
                                         <textarea name="msg" id="msg"></textarea>
                                         <div class="video_btn">
                                             <button type="submit" id="chat-btn">Send</button>
-                                            <a href="{{ url('profile') }}"><button type="button">End</button></a>
+                                            <a href="{{ url('profile') }}"><button id="end-btn" type="button">End</button></a>
                                         </div>
                                     </form>
                                 </div>
@@ -316,6 +316,19 @@
             //         $('.emojionearea-editor').html('');
             //     }
             // }).submit();
+        })
+        $('#end-btn').click(function(event) {
+            event.preventDefault();
+            $.ajax({
+                url: `{{ url('web-change-status') }}`,
+                data: {
+                    _token: `{{ csrf_token() }}`,
+                    msg: $("#msg").val()
+                }, // serializes the form's elements.
+                success: function(data) {
+                    window.location.href = "/profile";
+                }
+            })
         })
 
         function getAllChat() {

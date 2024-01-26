@@ -189,12 +189,15 @@ if ($settings_data->maintenance_status == 1) {
         Route::get('room/{id}', 'frontEnd\VideoRoomController@getRoom')->name('getRoom');
         Route::post('chat', 'frontEnd\VideoRoomController@doChat')->name('postChat');
         Route::post('chat/all', 'frontEnd\VideoRoomController@allChat')->name('allChat');
+        Route::get('web-change-status', 'frontEnd\VideoRoomController@webChangeStatus')->name('web-change-status');
         //Faq
 
         // web cam
         Route::get('createChatRoom', 'frontEnd\ChatController@createChatRoom')->name('createChatRoom');
         Route::post('chat-room/create', 'frontEnd\ChatController@createChat')->name('createChat');
-        Route::get('webroom/{id}', 'frontEnd\ChatController@getWebRoom')->name('getWebRoom');
+        Route::get('chatroom/{id}', 'frontEnd\ChatController@getWebRoom')->name('getWebRoom');
+        Route::get('chat-change-status', 'frontEnd\ChatController@chatChangeStatus')->name('chat-change-status');
+
 
         Route::get('faq', 'frontEnd\FileUploadController@faq')->name('faq');
 

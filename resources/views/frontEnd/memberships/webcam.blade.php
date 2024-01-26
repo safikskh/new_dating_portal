@@ -150,7 +150,7 @@
                                                 {{-- <div id="remote-media"></div> --}}
                                                 <div id="local-media"></div>
                                                 <input type="hidden" id="room_link"
-                                                    value="{{ url('room') . '/' . $roomID }}">
+                                                    value="{{ url('chatroom') . '/' . $roomID }}">
                                             </div>
 
                                         </div>
@@ -166,7 +166,7 @@
                                         <textarea name="msg" id="msg"></textarea>
                                         <div class="video_btn">
                                             <button type="submit" id="chat-btn">Send</button>
-                                            <a href="{{ url('home') }}"><button type="button">End</button></a>
+                                            <a href="{{ url('home') }}"><button id="end-btn" type="button">End</button></a>
                                         </div>
                                     </form>
                                 </div>
@@ -306,6 +306,20 @@
             //         $('.emojionearea-editor').html('');
             //     }
             // }).submit();
+        })
+
+        $('#end-btn').click(function(event) {
+            event.preventDefault();
+            $.ajax({
+                url: `{{ url('chat-change-status') }}`,
+                data: {
+                    _token: `{{ csrf_token() }}`,
+                    msg: $("#msg").val()
+                }, // serializes the form's elements.
+                success: function(data) {
+                    window.location.href = "/profile";
+                }
+            })
         })
 
         function getAllChat() {

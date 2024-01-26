@@ -54,7 +54,7 @@
                                 @foreach ($roomlist as $room)
                                     {{-- @dd($room->portalJoinUsers[0]->username); --}}
                                     <div class="col-sm-3 col-md-3">
-                                        <a target="_blank" href="{{ url('room/' . $room->id) }}">
+                                        <a target="_blank" href="{{ url('chatroom/' . $room->id) }}">
                                             <div class="card custom-card">
                                                 <span class="badge badge-success">Live</span>
 
