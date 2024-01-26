@@ -22,12 +22,14 @@
                                                 id="changeGender">
                                                 <option value="">Vælg din mulighed</option>
                                                 @foreach (App\Enums\Sex::getValues() as $item)
-                                                    <option value="{{ $item }}" {{isset($gender) && $item == $gender ? 'selected' : ''}}>{{ $item }}</option>
+                                                    <option value="{{ $item }}"
+                                                        {{ isset($gender) && $item == $gender ? 'selected' : '' }}>
+                                                        {{ $item }}</option>
                                                 @endforeach
                                             </select>
                                             <input type="hidden" name="chat_type" value="1">
                                             <button class="btn btn-dark" type="submit">Change</button>
-                                            <a  class="btn btn-dark" type="button"
+                                            <a class="btn btn-dark" type="button"
                                                 href="{{ url('createChatRoom') }}">Clear</a>
                                         </form>
                                     </div>
@@ -55,6 +57,7 @@
                                     {{-- @dd($room->videoChats); --}}
                                     <div class="col-sm-3 col-md-3">
                                         <a target="_blank" href="{{ url('room/' . $room->id) }}">
+
                                             <div class="card custom-card">
                                                 <span class="badge badge-success">Live</span>
 
