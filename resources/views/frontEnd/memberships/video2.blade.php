@@ -119,31 +119,6 @@
                         <div class="video_chat-content">
                             <div class="row">
                                 <div class="col-lg-8">
-                                    <div class="chat-box" id="chat-div">
-                                        {{-- <ul>
-                                            <li>
-                                                <div class="image-box">
-                                                    <img src="" alt="">
-                                                </div>
-                                                <div class="chat-text-box">
-                                                    <h4>Lorem, ipsum dolor.</h4>
-                                                    <p>
-                                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam,
-                                                        sit.
-                                                    </p>
-                                                </div>
-                                            </li>
-                                        </ul> --}}
-                                    </div>
-                                    {{-- <div id="chat-div">
-                                        <ul>
-                                            <li>
-                                                sfdsad
-                                            </li>
-                                        </ul>
-                                    </div> --}}
-                                </div>
-                                <div class="col-lg-4">
                                     <div class="video_chat_main">
                                         <div class="video_chat_box">
                                             <div class="video-box">
@@ -156,21 +131,27 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div>
-                                    <form id="chat-form">
-                                        <input type="hidden" name="room_id" value="{{ $roomID }}">
-                                        {{-- <input type="text" name="msg" id="msg"> --}}
-                                        <button type="button" id="copy-link">Copy Link</button>
-                                        <textarea name="msg" id="msg"></textarea>
-                                        <div class="video_btn">
-                                            <button type="submit" id="chat-btn">Send</button>
-                                            <a href="{{ url('profile') }}"><button id="end-btn" type="button">End</button></a>
-                                        </div>
-                                    </form>
+                                <div class="col-lg-4">
+                                    <div class="chat-box" id="chat-div">
+                                    </div>
+                                    <div>
+                                        <form id="chat-form">
+                                            <input type="hidden" name="room_id" value="{{ $roomID }}">
+                                            {{-- <input type="text" name="msg" id="msg"> --}}
+                                            <button type="button" id="copy-link">Copy Link</button>
+                                            <textarea name="msg" id="msg"></textarea>
+                                            <div class="video_btn">
+                                                <button type="submit" id="chat-btn">Send</button>
+                                                <a href="{{ url('profile') }}"><button id="end-btn"
+                                                        type="button">End</button></a>
+                                            </div>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
+                            {{-- <div class="col-lg-12">
+                              
+                            </div> --}}
 
                             {{-- @dd($roomName,$accessToken,$roomID,$identity) --}}
                         </div>

@@ -75,9 +75,9 @@
                                     <a class="nav-link" href="{{route('createVideoconference')}}" style="font-weight: bold;"><i class="fa fa-question-circle"></i>Webcam Chat</a>
                                 </li>
 
-                                <li class="nav-item">
+                                {{-- <li class="nav-item">
                                     <a class="nav-link" href="{{route('createChatRoom')}}" style="font-weight: bold;"><i class="fa fa-comments"></i>ChatRoom</a>
-                                </li>
+                                </li> --}}
                                 {{-- <li class="nav-item">
                                     <a class="nav-link" href="http://dpchat.pigeonhost.com/" target="_blank" style="font-weight: bold;"><span class="btn btn-danger"><i class="fa fa-comment"></i>CHAT</a></span>
                                 </li> --}}

@@ -184,12 +184,13 @@ if ($settings_data->maintenance_status == 1) {
         Route::get('createVideoconference', 'frontEnd\VideoRoomController@getVideoRoom')->name('createVideoconference');
         Route::get('web-cam', 'frontEnd\VideoRoomController@webCam')->name('webCam');
         // Route::get('joinVideoconference', 'frontEnd\VidroomeoRoomController@joinRoom')->name('joinVideoconference');
-        Route::post('video-room/create', 'frontEnd\VideoRoomController@createRoom')->name('createVideoRoom');
+        Route::get('video-room/create', 'frontEnd\VideoRoomController@createRoom')->name('createVideoRoom');
         Route::post('gender-filter', 'frontEnd\VideoRoomController@genderFilter')->name('gender-filter');
         Route::get('room/{id}', 'frontEnd\VideoRoomController@getRoom')->name('getRoom');
         Route::post('chat', 'frontEnd\VideoRoomController@doChat')->name('postChat');
         Route::post('chat/all', 'frontEnd\VideoRoomController@allChat')->name('allChat');
         Route::get('web-change-status', 'frontEnd\VideoRoomController@webChangeStatus')->name('web-change-status');
+        Route::get('stream-data', 'frontEnd\VideoRoomController@streamData')->name('stream-data');
         //Faq
 
         // web cam

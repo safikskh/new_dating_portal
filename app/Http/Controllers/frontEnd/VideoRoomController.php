@@ -11,6 +11,7 @@ use App\Models\VideoChatRoom;
 use App\Models\VideoRoomJoinUser;
 use App\Models\VideoChat;
 use App\User;
+use Response;
 
 class VideoRoomController extends Controller
 {
@@ -27,18 +28,18 @@ class VideoRoomController extends Controller
         $authToken = config('constant.TWILIO_AUTH_TOKEN');
         $apiKeySid = config('constant.TWILLIO_SID');
         $apiKeySecret = config('constant.TWILLIO_SECRET_KEY');
-        if(empty($room)) {
+        if (empty($room)) {
             $roomName = '';
             $roomID = '';
             $param['room_id'] = '';
-            $no_of_participants ='';
+            $no_of_participants = '';
         } else {
             $roomName = $room->room_name;
             $roomID = $room->id;
             $param['room_id'] = $room->id;
             $no_of_participants = $room->no_of_participants;
         }
-    
+
         $param['user_id'] = \Auth::id();
         // dd($accountSid, $apiKeySid, $apiKeySecret, 3600, 'admin');
         // $this->joinRoom($param);
@@ -68,9 +69,9 @@ class VideoRoomController extends Controller
     }
     public function createRoom(Request $request)
     {
-
+    //    dd($request->all());
         $param = \Input::all();
-        // dd($request);
+       
         $this->validate($request, [
             'room_name' => 'required',
             'participant' => 'required',
@@ -82,6 +83,13 @@ class VideoRoomController extends Controller
         $is_webcam_online->is_webcam_online = 1;
         $is_webcam_online->save();
         $room = self::addRoom($param);
+
+        $data['msg'] = 'Save successfully';
+        $data['status'] = true;
+
+        return $data;
+
+        // return redirect("room/$room");
 
         // $accountSid = config('constant.TWILIO_ACCOUNT_SID');
         // $authToken = config('constant.TWILIO_AUTH_TOKEN');
@@ -112,7 +120,7 @@ class VideoRoomController extends Controller
         // $accessToken->addGrant($videoGrant);
         // $videoGrant->setRoom($roomName);
         // dd($room->id);
-        return redirect("room/$room");
+
         // Return the view with the access token
 
     }
@@ -136,7 +144,7 @@ class VideoRoomController extends Controller
         //     }
         // }
         // dd($roomNames);
-        $roomlist = User::where("is_webcam_online", 1)->where('id', '!=', \Auth::id())->get();
+        $roomlist = User::where("is_webcam_online", 1)->where('set_age',auth()->user()->set_age)->where('set_gender',auth()->user()->set_gender)->where('id', '!=', \Auth::id())->get();
         return view('frontEnd.memberships.createVideo', compact("roomlist"));
     }
 
@@ -151,7 +159,7 @@ class VideoRoomController extends Controller
                     $roomlist[] = $record;
                 }
             }
-            return view('frontEnd.memberships.createVideo', compact("roomlist",'gender'));
+            return view('frontEnd.memberships.createVideo', compact("roomlist", 'gender'));
         } else {
             $list = User::where("is_chat_online", 1)->where('id', '!=', \Auth::id())->with('portalJoinUsers')->get();
             $roomlist = [];
@@ -160,7 +168,7 @@ class VideoRoomController extends Controller
                     $roomlist[] = $record;
                 }
             }
-            return view('frontEnd.memberships.createChatRoom', compact("roomlist",'gender'));
+            return view('frontEnd.memberships.createChatRoom', compact("roomlist", 'gender'));
         }
     }
 
@@ -255,11 +263,36 @@ class VideoRoomController extends Controller
 
     public function webChangeStatus()
     {
-        $is_webcam_online = User::where('id',\Auth::id())->first();
+        $is_webcam_online = User::where('id', \Auth::id())->first();
         $is_webcam_online->is_webcam_online = 0;
         $is_webcam_online->save();
         $res['msg'] = 'success';
         $res['flag'] = 1;
         return $res;
+    }
+
+    public function streamData(Request $request)
+    {
+        $user = User::where('id', \Auth::id())->first();
+        $user->set_gender = $request->gender;
+        $user->set_age = $request->age;
+        $user->save();
+
+        $room = VideoChatRoom::latest()->first();
+
+        $route = "room/$room->id";
+        return Response::json([
+            "status" => true,
+            "message" => "Save successfully",
+            "route" => $route
+        ]);
+
+        // $data['msg'] = 'Save successfully';
+        // $data['status'] = true;
+        // $data['room_id'] = $room->id;
+
+        // // return redirect("room/$room");
+
+       
     }
 }
