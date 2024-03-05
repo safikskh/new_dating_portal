@@ -1,0 +1,329 @@
+/*/* DEMO styles. Not needed. */
+.login-navbar {
+    background-color: #db1f00;
+    transform: translate3d(0px, 73px, 0px);
+    z-index: 1;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .25);
+}
+
+.navbar-brand img {
+    width: 200px;
+    height: auto;
+}
+.pw-resetbtn a {
+	color: #fff;
+}
+.right-side {
+    display: inline-block;
+    float: right;
+    width: 50%;
+    background-color: #fff;
+}
+
+.signup-form {
+    position: absolute;
+    top: 14%;
+    right: 5%;
+    background-color: #fff;
+    width: 100%;
+    max-width: 450px;
+    padding: 20px 30px;
+}
+
+.signup-form form .form-group input {
+    border-radius: 25px;
+    border: 1.5px solid #d9d9d9;
+}
+
+.signup-form form .form-group input:focus {
+    border-color: #1B4CA6;
+    box-shadow: none;
+    font-size: 1.3rem;
+}
+
+.signup-form form .form-group #firstName {
+    display: inline-block;
+    width: 48%;
+}
+
+.signup-form form .form-group #lastName {
+    display: inline-block;
+    width: 48%;
+    float: right;
+}
+
+#dateFormControlSelect {
+    display: inline-block;
+    width: 20%;
+    border-radius: 25px;
+    border: 1.5px solid #d9d9d9;
+}
+
+#monthFormControlSelect {
+    display: inline-block;
+    width: 37%;
+    border-radius: 25px;
+    border: 1.5px solid #d9d9d9;
+}
+
+#yearFormControlSelect {
+    display: inline-block;
+    width: 25%;
+    border-radius: 25px;
+    border: 1.5px solid #d9d9d9;
+}
+
+#dateFormControlSelect:focus,
+#monthFormControlSelect:focus,
+#yearFormControlSelect:focus {
+    border-color: #1B4CA6;
+    box-shadow: none;
+}
+
+.signup-btn {
+    text-align: center;
+    color: #fff;
+    background: #35B155;
+    margin-top: 1rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    border: 0;
+    width: 200px;
+}
+
+.fb-login-btn,
+.fb-signup-btn {
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    background: #3b5a98;
+    padding: .375rem 1rem;
+    margin: 0px auto;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    border: 0;
+}
+
+.login-btn {
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 0.27rem 1.3rem;
+    color: #fff;
+}
+
+.login-btn:hover {
+    color: #fff;
+}
+
+.fb-signup-btn {
+    margin-bottom: 1rem;
+}
+
+/* video */
+.playme {
+    padding-bottom: 10px;
+    width: 70px;
+    margin: 0 auto;
+    padding-top: 20%;
+    display: block;
+    opacity: 0.3;
+}
+
+.text-center {
+    color: #7d591c;
+    font-weight: lighter;
+}
+
+.vid-txt {
+    color: #766142;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width: 766px) {
+    .playpause {
+        padding-top: 20px;
+        width: 26px;
+        float: left;
+        margin-left: 42%;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+
+    .fb-login-btn{
+        margin-bottom: 1rem;
+    }
+    .login-email-field {
+        margin-bottom: 1rem;
+    }
+
+    .login-pass-field {
+        margin-bottom: 1rem;
+    }
+}
+
+.presentation {
+    height: 100%;
+    background: url("../img/presentation.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+@media (min-width: 576px) {
+    #introVideoModal .modal-dialog {
+        max-width: none;
+        margin: 0;
+    }
+}
+
+#introVideoModal .modal-dialog {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+#introVideoModal .modal-dialog .modal-content {
+    height: 100%;
+    border-radius: 0;
+    border: 0;
+}
+
+#section3 {
+    background-color: #35B155;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 1rem;
+    background-color: #fff;
+}
+
+footer .terms {
+    float: right;
+}
+
+footer .terms ul li {
+    display: inline-block;
+}
+
+.slider {
+    height: 100%;
+}
+
+
+/* ---------------------------
+                      FAQ
+          -----------------------------*/
+.faq {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.faq li a i {
+    font-style: normal;
+    padding: 0 1rem 0 0;
+    text-decoration: none;
+}
+
+.faq li a i:before {
+    content: "+";
+    padding: 0 1rem;
+}
+
+.bc-accordian-item a {
+    background: linear-gradient(to bottom, #fcfcfc 0%, #f2f2f2 100%);
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    color: #004b8d;
+    border: 1px solid #f1f1f1;
+    display: block;
+    font-weight: 700;
+    padding: 1rem 0.3rem;
+    text-decoration: none;
+    transition: color 0.3s ease-in;
+}
+
+.faq li a:hover {
+    color: #00add8;
+}
+
+.bc-accordian-item {
+    padding: 0.3rem;
+}
+
+.bc-accordian-item div {
+    display: none;
+}
+
+.bc-accordian-item-link-on {
+    background: linear-gradient(to bottom, #00add8 0%, #004b8d 100%);
+    color: #fff;
+}
+
+.bc-accordian-item-link-on:hover {
+    color: #fff;
+}
+
+.bc-accordian-item-link-on i:before {
+    content: "\2013";
+}
+
+/* disable auto fill pass */
+@-webkit-keyframes autofill {
+    to {
+        color: #495057;
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+
+/* coupon-section */
+.coupon-section{
+    width: 27%;
+}
+
+@media only screen and (max-width: 766px) {
+	.login-navbar {
+		transform: translate3d(0px, 0px, 0px);
+	}
+	.right-side {
+		float: none;
+		width: 100%;
+	}
+	.signup-form {
+		position: relative;
+		top: 14%;
+		right: 0;
+		background-color: #fff;
+		width: 100%;
+		max-width: 100%;
+		padding: 10px;
+	}
+	#dateFormControlSelect {
+		width: 21%;
+	}
+
+	#monthFormControlSelect {
+		width: 45%;
+	}
+
+	#yearFormControlSelect {
+		width: 30%;
+	}
+    .coupon-section {
+        width: 100%;
+    }
+	footer {
+		position: relative;
+	}
+}
