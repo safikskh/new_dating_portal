@@ -120,9 +120,7 @@
         </div>
     </div>
 @endsection
-
 @push('script')
-
     <script>
         $("#video-room-form").submit(function(e) {
             e.preventDefault();
